@@ -1,7 +1,6 @@
-#include "CesiumGltf/StructuralMetadataPropertyTableView.h"
+#include "CesiumGltf/PropertyTableView.h"
 
 namespace CesiumGltf {
-namespace StructuralMetadata {
 
 template <typename T>
 static PropertyTablePropertyViewStatus checkOffsetsBuffer(
@@ -138,8 +137,7 @@ PropertyTableView::PropertyTableView(
 }
 
 const ExtensionExtStructuralMetadataClassProperty*
-PropertyTableView::getClassProperty(
-    const std::string& propertyName) const {
+PropertyTableView::getClassProperty(const std::string& propertyName) const {
   if (_status != PropertyTableViewStatus::Valid) {
     return nullptr;
   }
@@ -231,8 +229,7 @@ PropertyTablePropertyViewStatus PropertyTableView::getArrayOffsetsBufferSafe(
   }
 }
 
-PropertyTablePropertyViewStatus
-PropertyTableView::getStringOffsetsBufferSafe(
+PropertyTablePropertyViewStatus PropertyTableView::getStringOffsetsBufferSafe(
     int32_t stringOffsetsBufferView,
     PropertyComponentType stringOffsetType,
     size_t valueBufferSize,
@@ -335,39 +332,40 @@ PropertyTableView::getStringPropertyValues(
       classProperty.normalized);
 }
 
-PropertyTablePropertyView<MetadataArrayView<std::string_view>>
+PropertyTablePropertyView<PropertyArrayView<std::string_view>>
 PropertyTableView::getStringArrayPropertyValues(
     const ExtensionExtStructuralMetadataClassProperty& classProperty,
     const ExtensionExtStructuralMetadataPropertyTableProperty&
         propertyTableProperty) const {
   if (!classProperty.array) {
-    return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
+    return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
         PropertyTablePropertyViewStatus::ErrorArrayTypeMismatch);
   }
 
   if (classProperty.type !=
       ExtensionExtStructuralMetadataClassProperty::Type::STRING) {
-    return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
+    return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
         PropertyTablePropertyViewStatus::ErrorTypeMismatch);
   }
 
   gsl::span<const std::byte> values;
   auto status = getBufferSafe(propertyTableProperty.values, values);
   if (status != PropertyTablePropertyViewStatus::Valid) {
-    return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
+    return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
         status);
   }
 
   // Check if array is fixed or variable length
   const int64_t fixedLengthArrayCount = classProperty.count.value_or(0);
   if (fixedLengthArrayCount > 0 && propertyTableProperty.arrayOffsets >= 0) {
-    return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
+    return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
         PropertyTablePropertyViewStatus::ErrorArrayCountAndOffsetBufferCoexist);
   }
 
   if (fixedLengthArrayCount <= 0 && propertyTableProperty.arrayOffsets < 0) {
-    return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
-        PropertyTablePropertyViewStatus::ErrorArrayCountAndOffsetBufferDontExist);
+    return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
+        PropertyTablePropertyViewStatus::
+            ErrorArrayCountAndOffsetBufferDontExist);
   }
 
   // Get string offset type
@@ -375,12 +373,12 @@ PropertyTableView::getStringArrayPropertyValues(
       convertStringOffsetTypeStringToPropertyComponentType(
           propertyTableProperty.stringOffsetType);
   if (stringOffsetType == PropertyComponentType::None) {
-    return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
+    return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
         PropertyTablePropertyViewStatus::ErrorInvalidStringOffsetType);
   }
 
   if (propertyTableProperty.stringOffsets < 0) {
-    return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
+    return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
         PropertyTablePropertyViewStatus::ErrorInvalidStringOffsetBufferView);
   }
 
@@ -394,11 +392,11 @@ PropertyTableView::getStringArrayPropertyValues(
         static_cast<size_t>(_pPropertyTable->count * fixedLengthArrayCount),
         stringOffsets);
     if (status != PropertyTablePropertyViewStatus::Valid) {
-      return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
+      return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
           status);
     }
 
-    return PropertyTablePropertyView<MetadataArrayView<std::string_view>>(
+    return PropertyTablePropertyView<PropertyArrayView<std::string_view>>(
         PropertyTablePropertyViewStatus::Valid,
         values,
         gsl::span<const std::byte>(),
@@ -415,12 +413,12 @@ PropertyTableView::getStringArrayPropertyValues(
       convertArrayOffsetTypeStringToPropertyComponentType(
           propertyTableProperty.arrayOffsetType);
   if (arrayOffsetType == PropertyComponentType::None) {
-    return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
+    return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
         PropertyTablePropertyViewStatus::ErrorInvalidArrayOffsetType);
   }
 
   if (propertyTableProperty.arrayOffsets < 0) {
-    return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
+    return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
         PropertyTablePropertyViewStatus::ErrorInvalidArrayOffsetBufferView);
   }
 
@@ -428,14 +426,14 @@ PropertyTableView::getStringArrayPropertyValues(
   gsl::span<const std::byte> stringOffsets;
   status = getBufferSafe(propertyTableProperty.stringOffsets, stringOffsets);
   if (status != PropertyTablePropertyViewStatus::Valid) {
-    return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
+    return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
         status);
   }
 
   gsl::span<const std::byte> arrayOffsets;
   status = getBufferSafe(propertyTableProperty.arrayOffsets, arrayOffsets);
   if (status != PropertyTablePropertyViewStatus::Valid) {
-    return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
+    return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
         status);
   }
 
@@ -478,11 +476,11 @@ PropertyTableView::getStringArrayPropertyValues(
   }
 
   if (status != PropertyTablePropertyViewStatus::Valid) {
-    return createInvalidPropertyView<MetadataArrayView<std::string_view>>(
+    return createInvalidPropertyView<PropertyArrayView<std::string_view>>(
         status);
   }
 
-  return PropertyTablePropertyView<MetadataArrayView<std::string_view>>(
+  return PropertyTablePropertyView<PropertyArrayView<std::string_view>>(
       PropertyTablePropertyViewStatus::Valid,
       values,
       arrayOffsets,
@@ -493,6 +491,4 @@ PropertyTableView::getStringArrayPropertyValues(
       _pPropertyTable->count,
       classProperty.normalized);
 }
-
-} // namespace StructuralMetadata
 } // namespace CesiumGltf
