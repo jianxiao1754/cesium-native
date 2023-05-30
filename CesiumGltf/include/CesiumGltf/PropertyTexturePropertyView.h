@@ -243,5 +243,4 @@ private:
   int64_t _count;
   bool _normalized;
 };
-
 } // namespace CesiumGltf

@@ -10,7 +10,6 @@
 #include <optional>
 
 namespace CesiumGltf {
-
 /**
  * @brief Indicates the status of a property table view.
  *
@@ -1217,5 +1216,4 @@ private:
   const ExtensionExtStructuralMetadataClass* _pClass;
   PropertyTableViewStatus _status;
 };
-
 } // namespace CesiumGltf

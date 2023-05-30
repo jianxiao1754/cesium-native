@@ -5,7 +5,6 @@
 #include <string_view>
 
 namespace CesiumGltf {
-
 enum class PropertyType {
   Invalid,
   Scalar,
@@ -53,5 +52,4 @@ convertStringOffsetTypeStringToPropertyComponentType(const std::string& str);
 bool isPropertyTypeVecN(PropertyType type);
 
 bool isPropertyTypeMatN(PropertyType type);
-
 } // namespace CesiumGltf

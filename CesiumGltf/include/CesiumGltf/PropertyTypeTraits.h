@@ -9,7 +9,6 @@
 #include <type_traits>
 
 namespace CesiumGltf {
-
 /**
  * @brief Check if a C++ type can be represented as a scalar property type
  */
@@ -264,5 +263,4 @@ template <> struct TypeToPropertyType<std::string_view> {
       PropertyComponentType::None;
   static constexpr PropertyType value = PropertyType::String;
 };
-
 } // namespace CesiumGltf

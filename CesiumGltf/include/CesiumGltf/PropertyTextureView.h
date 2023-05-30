@@ -12,7 +12,6 @@
 #include "Model.h"
 
 namespace CesiumGltf {
-
 /**
  * @brief Indicates the status of a property texture view.
  *
@@ -118,5 +117,4 @@ private:
   std::unordered_map<std::string, PropertyTexturePropertyView> _propertyViews;
   PropertyTextureViewStatus _status;
 };
-
 } // namespace CesiumGltf
