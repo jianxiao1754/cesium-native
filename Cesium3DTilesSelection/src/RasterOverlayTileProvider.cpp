@@ -12,6 +12,9 @@
 #include <CesiumUtility/Tracing.h>
 #include <CesiumUtility/joinToString.h>
 
+#include <filesystem>
+#include <fstream>
+
 using namespace CesiumAsync;
 using namespace CesiumGeometry;
 using namespace CesiumGeospatial;
@@ -190,6 +193,24 @@ RasterOverlayTileProvider::loadTileImageFromUrl(
             }
             if (!loadedImage.warnings.empty()) {
               loadedImage.warnings.push_back("Image url: " + pRequest->url());
+            }
+
+
+            if(options.hasTileID){
+              auto const tileData=reinterpret_cast<const char*>(pResponse->data().data());
+
+              std::filesystem::path tilePath{"E:/Map/CesiumImagery"};
+              tilePath/=std::to_string(options.level+1);
+              tilePath/=std::to_string(options.x);
+              if(!std::filesystem::exists(tilePath)){
+                std::filesystem::create_directories(tilePath);
+              }
+              tilePath/=std::to_string(options.y)+".jpg";
+
+              if(!std::filesystem::exists(tilePath)){
+                std::ofstream tileFile{tilePath,std::ios::binary|std::ios::trunc};
+                tileFile.write(tileData,int(pResponse->data().size()));
+              }
             }
 
             return LoadedRasterOverlayImage{

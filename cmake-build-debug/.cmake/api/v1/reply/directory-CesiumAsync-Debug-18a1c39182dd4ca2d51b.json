@@ -1,0 +1,85 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CesiumAsync/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"CesiumAsync/libCesiumAsyncd.a"
+			],
+			"targetId" : "CesiumAsync::@c3b046953ef8748376be",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CesiumAsync",
+			"paths" : 
+			[
+				"CesiumAsync/include/CesiumAsync/AsyncSystem.h",
+				"CesiumAsync/include/CesiumAsync/CacheItem.h",
+				"CesiumAsync/include/CesiumAsync/CachingAssetAccessor.h",
+				"CesiumAsync/include/CesiumAsync/Future.h",
+				"CesiumAsync/include/CesiumAsync/HttpHeaders.h",
+				"CesiumAsync/include/CesiumAsync/IAssetAccessor.h",
+				"CesiumAsync/include/CesiumAsync/IAssetRequest.h",
+				"CesiumAsync/include/CesiumAsync/IAssetResponse.h",
+				"CesiumAsync/include/CesiumAsync/ICacheDatabase.h",
+				"CesiumAsync/include/CesiumAsync/ITaskProcessor.h",
+				"CesiumAsync/include/CesiumAsync/Library.h",
+				"CesiumAsync/include/CesiumAsync/Promise.h",
+				"CesiumAsync/include/CesiumAsync/SharedFuture.h",
+				"CesiumAsync/include/CesiumAsync/SqliteCache.h",
+				"CesiumAsync/include/CesiumAsync/ThreadPool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/CesiumAsync",
+			"paths" : 
+			[
+				"CesiumAsync/include/CesiumAsync/Impl"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CesiumAsync",
+		"source" : "CesiumAsync"
+	}
+}

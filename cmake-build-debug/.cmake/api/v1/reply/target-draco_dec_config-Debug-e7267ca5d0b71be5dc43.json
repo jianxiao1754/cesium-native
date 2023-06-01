@@ -1,0 +1,72 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"draco_add_library"
+		],
+		"files" : 
+		[
+			"extern/draco/cmake/draco_targets.cmake",
+			"extern/draco/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 784,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 275,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "draco_dec_config::@d4298ebd35d74cac9a3f",
+	"name" : "draco_dec_config",
+	"paths" : 
+	{
+		"build" : "extern/draco",
+		"source" : "extern/draco"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "extern/draco/src/draco/compression/config/compression_shared.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "extern/draco/src/draco/compression/config/decoder_options.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "extern/draco/src/draco/compression/config/draco_options.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

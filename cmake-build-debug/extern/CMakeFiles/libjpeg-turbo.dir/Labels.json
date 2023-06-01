@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/CMakeFiles/libjpeg-turbo"
+		},
+		{
+			"file" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/CMakeFiles/libjpeg-turbo.rule"
+		},
+		{
+			"file" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/CMakeFiles/libjpeg-turbo-complete.rule"
+		},
+		{
+			"file" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/libjpeg-turbo/src/libjpeg-turbo-stamp/libjpeg-turbo-build.rule"
+		},
+		{
+			"file" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/libjpeg-turbo/src/libjpeg-turbo-stamp/libjpeg-turbo-configure.rule"
+		},
+		{
+			"file" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/libjpeg-turbo/src/libjpeg-turbo-stamp/libjpeg-turbo-download.rule"
+		},
+		{
+			"file" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/libjpeg-turbo/src/libjpeg-turbo-stamp/libjpeg-turbo-install.rule"
+		},
+		{
+			"file" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/libjpeg-turbo/src/libjpeg-turbo-stamp/libjpeg-turbo-mkdir.rule"
+		},
+		{
+			"file" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/libjpeg-turbo/src/libjpeg-turbo-stamp/libjpeg-turbo-patch.rule"
+		},
+		{
+			"file" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/libjpeg-turbo/src/libjpeg-turbo-stamp/libjpeg-turbo-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libjpeg-turbo"
+		],
+		"name" : "libjpeg-turbo"
+	}
+}

@@ -1,0 +1,381 @@
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_c343f/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c343f.dir\build.make CMakeFiles/cmTC_c343f.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c343f.dir/HAVE_DLFCN_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_c343f.dir\HAVE_DLFCN_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c:2:10:[m[K [01;31m[Kfatal error: [m[Kdlfcn.h: No such file or directory
+    2 | #include [01;31m[K<dlfcn.h>[m[K
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_c343f.dir\build.make:77: CMakeFiles/cmTC_c343f.dir/HAVE_DLFCN_H.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_c343f/fast] Error 2
+
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if files GLUT/glut.h exist failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a9ccf/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a9ccf.dir\build.make CMakeFiles/cmTC_a9ccf.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9ccf.dir/HAVE_GLUT_GLUT_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_a9ccf.dir\HAVE_GLUT_GLUT_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_GLUT_GLUT_H.c
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_GLUT_GLUT_H.c:2:10:[m[K [01;31m[Kfatal error: [m[KGLUT/glut.h: No such file or directory
+    2 | #include [01;31m[K<GLUT/glut.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_a9ccf.dir\build.make:77: CMakeFiles/cmTC_a9ccf.dir/HAVE_GLUT_GLUT_H.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_a9ccf/fast] Error 2
+
+
+Source:
+/* */
+#include <GLUT/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files GL/glut.h exist failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_36cee/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_36cee.dir\build.make CMakeFiles/cmTC_36cee.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36cee.dir/HAVE_GL_GLUT_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_36cee.dir\HAVE_GL_GLUT_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_GL_GLUT_H.c
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_GL_GLUT_H.c:2:10:[m[K [01;31m[Kfatal error: [m[KGL/glut.h: No such file or directory
+    2 | #include [01;31m[K<GL/glut.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_36cee.dir\build.make:77: CMakeFiles/cmTC_36cee.dir/HAVE_GL_GLUT_H.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_36cee/fast] Error 2
+
+
+Source:
+/* */
+#include <GL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glut.h exist failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_c9f40/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c9f40.dir\build.make CMakeFiles/cmTC_c9f40.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9f40.dir/HAVE_OPENGL_GLUT_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_c9f40.dir\HAVE_OPENGL_GLUT_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_OPENGL_GLUT_H.c
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_OPENGL_GLUT_H.c:2:10:[m[K [01;31m[Kfatal error: [m[KOpenGL/glut.h: No such file or directory
+    2 | #include [01;31m[K<OpenGL/glut.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_c9f40.dir\build.make:77: CMakeFiles/cmTC_c9f40.dir/HAVE_OPENGL_GLUT_H.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_c9f40/fast] Error 2
+
+
+Source:
+/* */
+#include <OpenGL/glut.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_9f713/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9f713.dir\build.make CMakeFiles/cmTC_9f713.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f713.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DWEBP_HAVE_FLAG_SSE41 @CMakeFiles/cmTC_9f713.dir/includes_C.rsp -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_9f713.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:[m[K In function '[01m[Kmain[m[K':
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:5:9:[m[K [01;31m[Kerror: [m[Kunknown type name '[01m[Kthis[m[K'
+    5 |         [01;31m[Kthis[m[K is not valid code
+      |         [01;31m[K^~~~[m[K
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:5:17:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K=[m[K', '[01m[K,[m[K', '[01m[K;[m[K', '[01m[Kasm[m[K' or '[01m[K__attribute__[m[K' before '[01m[Knot[m[K'
+    5 |         this is [01;31m[Knot[m[K valid code
+      |                 [01;31m[K^~~[m[K
+mingw32-make[1]: *** [CMakeFiles\cmTC_9f713.dir\build.make:78: CMakeFiles/cmTC_9f713.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_9f713/fast] Error 2
+
+
+Source file was:
+
+      #include "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_71271/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_71271.dir\build.make CMakeFiles/cmTC_71271.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71271.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DWEBP_HAVE_FLAG_MIPS32 @CMakeFiles/cmTC_71271.dir/includes_C.rsp -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_71271.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:[m[K In function '[01m[Kmain[m[K':
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:5:9:[m[K [01;31m[Kerror: [m[Kunknown type name '[01m[Kthis[m[K'
+    5 |         [01;31m[Kthis[m[K is not valid code
+      |         [01;31m[K^~~~[m[K
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:5:17:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K=[m[K', '[01m[K,[m[K', '[01m[K;[m[K', '[01m[Kasm[m[K' or '[01m[K__attribute__[m[K' before '[01m[Knot[m[K'
+    5 |         this is [01;31m[Knot[m[K valid code
+      |                 [01;31m[K^~~[m[K
+mingw32-make[1]: *** [CMakeFiles\cmTC_71271.dir\build.make:78: CMakeFiles/cmTC_71271.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_71271/fast] Error 2
+
+
+Source file was:
+
+      #include "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f4678/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f4678.dir\build.make CMakeFiles/cmTC_f4678.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4678.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DWEBP_HAVE_FLAG_MIPS32 @CMakeFiles/cmTC_f4678.dir/includes_C.rsp -pthread -mips32 -fdiagnostics-color=always -o CMakeFiles\cmTC_f4678.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+[01m[Kgcc.exe:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-mips32[m[K'; did you mean '[01m[K-mpc32[m[K'?
+mingw32-make[1]: *** [CMakeFiles\cmTC_f4678.dir\build.make:78: CMakeFiles/cmTC_f4678.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_f4678/fast] Error 2
+
+
+Source file was:
+
+      #include "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_dcd96/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dcd96.dir\build.make CMakeFiles/cmTC_dcd96.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcd96.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DWEBP_HAVE_FLAG_MIPS_DSP_R2 @CMakeFiles/cmTC_dcd96.dir/includes_C.rsp -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_dcd96.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:[m[K In function '[01m[Kmain[m[K':
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:5:9:[m[K [01;31m[Kerror: [m[Kunknown type name '[01m[Kthis[m[K'
+    5 |         [01;31m[Kthis[m[K is not valid code
+      |         [01;31m[K^~~~[m[K
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:5:17:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K=[m[K', '[01m[K,[m[K', '[01m[K;[m[K', '[01m[Kasm[m[K' or '[01m[K__attribute__[m[K' before '[01m[Knot[m[K'
+    5 |         this is [01;31m[Knot[m[K valid code
+      |                 [01;31m[K^~~[m[K
+mingw32-make[1]: *** [CMakeFiles\cmTC_dcd96.dir\build.make:78: CMakeFiles/cmTC_dcd96.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_dcd96/fast] Error 2
+
+
+Source file was:
+
+      #include "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_d4503/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d4503.dir\build.make CMakeFiles/cmTC_d4503.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4503.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DWEBP_HAVE_FLAG_MIPS_DSP_R2 @CMakeFiles/cmTC_d4503.dir/includes_C.rsp -pthread -mdspr2 -fdiagnostics-color=always -o CMakeFiles\cmTC_d4503.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+[01m[Kgcc.exe:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-mdspr2[m[K'
+mingw32-make[1]: *** [CMakeFiles\cmTC_d4503.dir\build.make:78: CMakeFiles/cmTC_d4503.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_d4503/fast] Error 2
+
+
+Source file was:
+
+      #include "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a1ac9/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a1ac9.dir\build.make CMakeFiles/cmTC_a1ac9.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1ac9.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DHAS_COMPILE_FLAG  -pthread -mdspr2 -fdiagnostics-color=always   -mno-dspr2 -o CMakeFiles\cmTC_a1ac9.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+[01m[Kgcc.exe:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-mdspr2[m[K'
+[01m[Kgcc.exe:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-mno-dspr2[m[K'; did you mean '[01m[K-mno-sse2[m[K'?
+mingw32-make[1]: *** [CMakeFiles\cmTC_a1ac9.dir\build.make:77: CMakeFiles/cmTC_a1ac9.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_a1ac9/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_889b5/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_889b5.dir\build.make CMakeFiles/cmTC_889b5.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_889b5.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DWEBP_HAVE_FLAG_NEON @CMakeFiles/cmTC_889b5.dir/includes_C.rsp -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_889b5.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:[m[K In function '[01m[Kmain[m[K':
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:5:9:[m[K [01;31m[Kerror: [m[Kunknown type name '[01m[Kthis[m[K'
+    5 |         [01;31m[Kthis[m[K is not valid code
+      |         [01;31m[K^~~~[m[K
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:5:17:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K=[m[K', '[01m[K,[m[K', '[01m[K;[m[K', '[01m[Kasm[m[K' or '[01m[K__attribute__[m[K' before '[01m[Knot[m[K'
+    5 |         this is [01;31m[Knot[m[K valid code
+      |                 [01;31m[K^~~[m[K
+mingw32-make[1]: *** [CMakeFiles\cmTC_889b5.dir\build.make:78: CMakeFiles/cmTC_889b5.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_889b5/fast] Error 2
+
+
+Source file was:
+
+      #include "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_7767d/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7767d.dir\build.make CMakeFiles/cmTC_7767d.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7767d.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DWEBP_HAVE_FLAG_NEON @CMakeFiles/cmTC_7767d.dir/includes_C.rsp -pthread -mfpu=neon -fdiagnostics-color=always -o CMakeFiles\cmTC_7767d.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+[01m[Kgcc.exe:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-mfpu=neon[m[K'
+mingw32-make[1]: *** [CMakeFiles\cmTC_7767d.dir\build.make:78: CMakeFiles/cmTC_7767d.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_7767d/fast] Error 2
+
+
+Source file was:
+
+      #include "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_dc966/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dc966.dir\build.make CMakeFiles/cmTC_dc966.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc966.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DWEBP_HAVE_FLAG_MSA @CMakeFiles/cmTC_dc966.dir/includes_C.rsp -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_dc966.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:[m[K In function '[01m[Kmain[m[K':
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:5:9:[m[K [01;31m[Kerror: [m[Kunknown type name '[01m[Kthis[m[K'
+    5 |         [01;31m[Kthis[m[K is not valid code
+      |         [01;31m[K^~~~[m[K
+[01m[KD:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:5:17:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K=[m[K', '[01m[K,[m[K', '[01m[K;[m[K', '[01m[Kasm[m[K' or '[01m[K__attribute__[m[K' before '[01m[Knot[m[K'
+    5 |         this is [01;31m[Knot[m[K valid code
+      |                 [01;31m[K^~~[m[K
+mingw32-make[1]: *** [CMakeFiles\cmTC_dc966.dir\build.make:78: CMakeFiles/cmTC_dc966.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_dc966/fast] Error 2
+
+
+Source file was:
+
+      #include "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_217eb/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_217eb.dir\build.make CMakeFiles/cmTC_217eb.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_217eb.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DWEBP_HAVE_FLAG_MSA @CMakeFiles/cmTC_217eb.dir/includes_C.rsp -pthread -mmsa -fdiagnostics-color=always -o CMakeFiles\cmTC_217eb.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+[01m[Kgcc.exe:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-mmsa[m[K'
+mingw32-make[1]: *** [CMakeFiles\cmTC_217eb.dir\build.make:78: CMakeFiles/cmTC_217eb.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_217eb/fast] Error 2
+
+
+Source file was:
+
+      #include "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_c6968/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c6968.dir\build.make CMakeFiles/cmTC_c6968.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6968.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DHAS_COMPILE_FLAG  -pthread -mmsa -fdiagnostics-color=always   -mno-msa -o CMakeFiles\cmTC_c6968.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+[01m[Kgcc.exe:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-mmsa[m[K'
+[01m[Kgcc.exe:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-mno-msa[m[K'; did you mean '[01m[K-Wno-hsa[m[K'?
+mingw32-make[1]: *** [CMakeFiles\cmTC_c6968.dir\build.make:77: CMakeFiles/cmTC_c6968.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_c6968/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function reallocarray exists failed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_6728c/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6728c.dir\build.make CMakeFiles/cmTC_6728c.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6728c.dir/CheckFunctionExists.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=reallocarray -fdiagnostics-color=always -o CMakeFiles\cmTC_6728c.dir\CheckFunctionExists.c.obj -c D:\devkits\JetBrains\CLion\bin\cmake\win\share\cmake-3.24\Modules\CheckFunctionExists.c
+Linking C executable cmTC_6728c.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6728c.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_6728c.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_6728c.dir/objects.a @CMakeFiles\cmTC_6728c.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -DCHECK_FUNCTION_EXISTS=reallocarray -Wl,--whole-archive CMakeFiles\cmTC_6728c.dir/objects.a -Wl,--no-whole-archive -o cmTC_6728c.exe -Wl,--out-implib,libcmTC_6728c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6728c.dir\linklibs.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin/ld.exe: CMakeFiles\cmTC_6728c.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `reallocarray'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_6728c.dir\build.make:100: cmTC_6728c.exe] Error 1
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_6728c/fast] Error 2
+
+
+

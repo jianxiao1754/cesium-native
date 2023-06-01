@@ -1,0 +1,142 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"uriparser_install"
+		],
+		"files" : 
+		[
+			"extern/uriparser/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 419,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 452,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/uriparser/liburiparserd.a"
+			],
+			"targetId" : "uriparser::@02988cca979bc22941f2",
+			"targetIndex" : 99,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/uriparser",
+			"paths" : 
+			[
+				"extern/uriparser/include/uriparser/UriBase.h",
+				"extern/uriparser/include/uriparser/UriDefsAnsi.h",
+				"extern/uriparser/include/uriparser/UriDefsConfig.h",
+				"extern/uriparser/include/uriparser/UriDefsUnicode.h",
+				"extern/uriparser/include/uriparser/Uri.h",
+				"extern/uriparser/include/uriparser/UriIp4.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/uriparser-0.9.6",
+			"paths" : 
+			[
+				"cmake-build-debug/extern/uriparser/cmake/uriparser-config.cmake",
+				"cmake-build-debug/extern/uriparser/cmake/uriparser-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/uriparser-0.9.6",
+			"exportName" : "uriparser",
+			"exportTargets" : 
+			[
+				{
+					"id" : "uriparser::@02988cca979bc22941f2",
+					"index" : 99
+				}
+			],
+			"paths" : 
+			[
+				"extern/uriparser/CMakeFiles/Export/8f759483d4d490653fe941f3c1b5234b/uriparser.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/extern/uriparser/liburiparser.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/uriparser",
+		"source" : "extern/uriparser"
+	}
+}

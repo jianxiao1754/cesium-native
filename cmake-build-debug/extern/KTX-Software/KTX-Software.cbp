@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="KTX-Software"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\extern\;CMake Files\extern\asyncplusplus\;CMake Files\extern\Catch2\;CMake Files\extern\Catch2\contrib\;CMake Files\extern\GSL\;CMake Files\extern\GSL\cmake\;CMake Files\extern\GSL\include\;CMake Files\extern\KTX-Software\;CMake Files\extern\KTX-Software\cmake\;CMake Files\extern\KTX-Software\cmake\modules\;CMake Files\extern\KTX-Software\interface\;CMake Files\extern\KTX-Software\interface\basisu_c_binding\;CMake Files\extern\KTX-Software\lib\;CMake Files\extern\KTX-Software\lib\astc-encoder\;CMake Files\extern\KTX-Software\lib\astc-encoder\Source\;CMake Files\extern\KTX-Software\tools\;CMake Files\extern\KTX-Software\tools\ktx2check\;CMake Files\extern\KTX-Software\tools\ktx2ktx2\;CMake Files\extern\KTX-Software\tools\ktxinfo\;CMake Files\extern\KTX-Software\tools\ktxsc\;CMake Files\extern\KTX-Software\tools\toktx\;CMake Files\extern\KTX-Software\tests\;CMake Files\extern\cmake-modules\;CMake Files\extern\libwebp\;CMake Files\extern\libwebp\cmake\;CMake Files\extern\libwebp\src\;CMake Files\extern\libwebp\src\demux\;CMake Files\extern\uriparser\;CMake Files\extern\uriparser\src\;CMake Files\extern\uriparser\cmake\;CMake Files\extern\draco\;CMake Files\extern\draco\cmake\;CMake Files\extern\glm\;CMake Files\extern\glm\glm\;CMake Files\extern\spdlog\;CMake Files\extern\spdlog\cmake\;CMake Files\extern\sqlite3\;CMake Files\extern\modp_b64\;CMake Files\extern\expected-lite\;CMake Files\extern\expected-lite\cmake\;CMake Files\extern\cpp-httplib\;CMake Files\extern\libmorton\;CMake Files\extern\libmorton\data\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\extern\;CMake Files\cmake-build-debug\extern\libjpeg-turbo\;CMake Files\cmake-build-debug\extern\libjpeg-turbo\tmp\;CMake Files\CesiumUtility\;CMake Files\CesiumGltf\;CMake Files\CesiumGeometry\;CMake Files\CesiumGeospatial\;CMake Files\CesiumJsonReader\;CMake Files\CesiumJsonWriter\;CMake Files\CesiumGltfReader\;CMake Files\CesiumGltfWriter\;CMake Files\CesiumAsync\;CMake Files\Cesium3DTiles\;CMake Files\Cesium3DTilesReader\;CMake Files\Cesium3DTilesWriter\;CMake Files\Cesium3DTilesSelection\;CMake Files\CesiumIonClient\;CMake Files\CesiumNativeTests\;CMake Files\doc\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktx">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/libktxd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBKTX"/>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISD_SUPPORT_FXT1=0"/>
+					<Add option="-DKTX_API=__declspec(dllexport)"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add option="-DBASISD_SUPPORT_KTX2_ZSTD=0"/>
+					<Add option="-DBASISD_SUPPORT_KTX2=1"/>
+					<Add option="-DBASISU_SUPPORT_SSE=1"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 ktx"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktx/fast">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/libktxd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBKTX"/>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISD_SUPPORT_FXT1=0"/>
+					<Add option="-DKTX_API=__declspec(dllexport)"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add option="-DBASISD_SUPPORT_KTX2_ZSTD=0"/>
+					<Add option="-DBASISD_SUPPORT_KTX2=1"/>
+					<Add option="-DBASISU_SUPPORT_SSE=1"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 ktx/fast"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktx_read">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/libktx_readd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBKTX"/>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISD_SUPPORT_FXT1=0"/>
+					<Add option="-DKTX_API=__declspec(dllexport)"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DBASISD_SUPPORT_KTX2_ZSTD=0"/>
+					<Add option="-DBASISD_SUPPORT_KTX2=0"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 ktx_read"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktx_read/fast">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/libktx_readd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBKTX"/>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISD_SUPPORT_FXT1=0"/>
+					<Add option="-DKTX_API=__declspec(dllexport)"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DBASISD_SUPPORT_KTX2_ZSTD=0"/>
+					<Add option="-DBASISD_SUPPORT_KTX2=0"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 ktx_read/fast"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktx_version">
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 ktx_version"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="objUtil">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/libobjUtild.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 objUtil"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="objUtil/fast">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/libobjUtild.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 objUtil/fast"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="obj_basisu_cbind">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/interface/basisu_c_binding/libobj_basisu_cbindd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/interface/basisu_c_binding"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKTX_BASISU_C_BINDINGS"/>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add option="-DBASISD_SUPPORT_KTX2_ZSTD=0"/>
+					<Add option="-DBASISD_SUPPORT_KTX2=0"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/interface/basisu_c_binding/inc"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/interface/basisu_c_binding/Makefile&quot;  VERBOSE=1 obj_basisu_cbind"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/interface/basisu_c_binding/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/interface/basisu_c_binding/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/interface/basisu_c_binding/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="obj_basisu_cbind/fast">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/interface/basisu_c_binding/libobj_basisu_cbindd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/interface/basisu_c_binding"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKTX_BASISU_C_BINDINGS"/>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add option="-DBASISD_SUPPORT_KTX2_ZSTD=0"/>
+					<Add option="-DBASISD_SUPPORT_KTX2=0"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/interface/basisu_c_binding/inc"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/interface/basisu_c_binding/Makefile&quot;  VERBOSE=1 obj_basisu_cbind/fast"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/interface/basisu_c_binding/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/interface/basisu_c_binding/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/interface/basisu_c_binding/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="astcenc-avx2-static">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/lib/astc-encoder/Source/libastcenc-avx2-staticd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/lib/astc-encoder/Source"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASTCENC_NEON=0"/>
+					<Add option="-DASTCENC_SSE=41"/>
+					<Add option="-DASTCENC_AVX=2"/>
+					<Add option="-DASTCENC_POPCNT=1"/>
+					<Add option="-DASTCENC_F16C=1"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/lib/astc-encoder/Source/Makefile&quot;  VERBOSE=1 astcenc-avx2-static"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/lib/astc-encoder/Source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/lib/astc-encoder/Source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/lib/astc-encoder/Source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="astcenc-avx2-static/fast">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/lib/astc-encoder/Source/libastcenc-avx2-staticd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/lib/astc-encoder/Source"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASTCENC_NEON=0"/>
+					<Add option="-DASTCENC_SSE=41"/>
+					<Add option="-DASTCENC_AVX=2"/>
+					<Add option="-DASTCENC_POPCNT=1"/>
+					<Add option="-DASTCENC_F16C=1"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/lib/astc-encoder/Source/Makefile&quot;  VERBOSE=1 astcenc-avx2-static/fast"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/lib/astc-encoder/Source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/lib/astc-encoder/Source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/lib/astc-encoder/Source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktx2check">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/Debug/ktx2check.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;1:D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/$&lt;CONFIG&gt;&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2check/."/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check/Makefile&quot;  VERBOSE=1 ktx2check"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktx2check/fast">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/Debug/ktx2check.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;1:D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/$&lt;CONFIG&gt;&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2check/."/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check/Makefile&quot;  VERBOSE=1 ktx2check/fast"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktx2check_version">
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check/Makefile&quot;  VERBOSE=1 ktx2check_version"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2check/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktx2ktx2">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/Debug/ktx2ktx2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;1:D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/$&lt;CONFIG&gt;&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2ktx2/."/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2/Makefile&quot;  VERBOSE=1 ktx2ktx2"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktx2ktx2/fast">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/Debug/ktx2ktx2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;1:D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/$&lt;CONFIG&gt;&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2ktx2/."/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2/Makefile&quot;  VERBOSE=1 ktx2ktx2/fast"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktx2ktx2_version">
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2/Makefile&quot;  VERBOSE=1 ktx2ktx2_version"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktx2ktx2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktxinfo">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/Debug/ktxinfo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;1:D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/$&lt;CONFIG&gt;&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxinfo/."/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo/Makefile&quot;  VERBOSE=1 ktxinfo"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktxinfo/fast">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/Debug/ktxinfo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;1:D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/$&lt;CONFIG&gt;&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxinfo/."/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo/Makefile&quot;  VERBOSE=1 ktxinfo/fast"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktxinfo_version">
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo/Makefile&quot;  VERBOSE=1 ktxinfo_version"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxinfo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktxsc">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/Debug/ktxsc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;1:D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/$&lt;CONFIG&gt;&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxsc/."/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc/Makefile&quot;  VERBOSE=1 ktxsc"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktxsc/fast">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/Debug/ktxsc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;1:D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/$&lt;CONFIG&gt;&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxsc/."/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc/Makefile&quot;  VERBOSE=1 ktxsc/fast"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ktxsc_version">
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc/Makefile&quot;  VERBOSE=1 ktxsc_version"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/ktxsc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="toktx">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/Debug/toktx.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;1:D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/$&lt;CONFIG&gt;&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/."/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx/Makefile&quot;  VERBOSE=1 toktx"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="toktx/fast">
+				<Option output="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/Debug/toktx.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;1:D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/$&lt;CONFIG&gt;&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKHRONOS_STATIC"/>
+					<Add option="-DBASISU_NO_ITERATOR_DEBUG_LEVEL"/>
+					<Add option="-DKTX_FEATURE_KTX1"/>
+					<Add option="-DKTX_FEATURE_KTX2"/>
+					<Add option="-DKTX_FEATURE_WRITE"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/."/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source"/>
+					<Add directory="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx/Makefile&quot;  VERBOSE=1 toktx/fast"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="toktx_version">
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx/Makefile&quot;  VERBOSE=1 toktx_version"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/KTX-Software/tools/toktx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include/ktx.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include/ktxvulkan.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/interface/basisu_c_binding/inc/basisu_c_binding.h">
+			<Option target="obj_basisu_cbind"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/interface/basisu_c_binding/src/basisu_c_binding.cpp">
+			<Option target="obj_basisu_cbind"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_averages_and_directions.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_block_sizes.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_color_quantize.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_color_unquantize.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_compress_symbolic.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_compute_variance.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_decompress_symbolic.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_diagnostic_trace.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_diagnostic_trace.h">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_entry.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_find_best_partitioning.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_ideal_endpoints_and_weights.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_image.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_integer_sequence.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_mathlib.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_mathlib.h">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_mathlib_softfloat.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_partition_tables.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_percentile_tables.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_pick_best_endpoint_format.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_platform_isa_detection.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_quantization.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_symbolic_physical.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_weight_align.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/astcenc_weight_quant_xfer_tables.cpp">
+			<Option target="astcenc-avx2-static"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc_encode.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basis_encode.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basis_sgd.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basis_transcode.cpp">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/apg_bmp.c">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/apg_bmp.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_astc_decomp.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_astc_decomp.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_backend.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_backend.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_basis_file.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_basis_file.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_bc7enc.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_bc7enc.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_comp.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_comp.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_enc.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_enc.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_etc.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_etc.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_frontend.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_frontend.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_global_selector_palette_helpers.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_global_selector_palette_helpers.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_gpu_texture.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_gpu_texture.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_kernels_declares.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_kernels_imp.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_kernels_sse.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_miniz.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_pvrtc1_4.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_pvrtc1_4.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_resample_filters.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_resampler.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_resampler.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_resampler_filters.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_ssim.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_ssim.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_uastc_enc.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/basisu_uastc_enc.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/cppspmd_flow.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/cppspmd_math.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/cppspmd_math_declares.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/cppspmd_sse.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/cppspmd_type_aliases.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/jpgd.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/jpgd.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/lodepng.cpp">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/encoder/lodepng.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder/basisu.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder/basisu_containers.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder/basisu_containers_impl.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder/basisu_file_headers.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder/basisu_global_selector_cb.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder/basisu_global_selector_palette.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder/basisu_transcoder.cpp">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder/basisu_transcoder.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder/basisu_transcoder_internal.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder/basisu_transcoder_uastc.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd/zstd.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd/zstd.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/checkheader.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils/colourspaces.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils/createdfd.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils/dfd.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils/dfd2vk.inl">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils/interpretdfd.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils/printdfd.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils/queries.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils/vk2dfd.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils/vulkan/vk_platform.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils/vulkan/vulkan_core.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/etcdec.cxx">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/etcunpack.cxx">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/filestream.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/filestream.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/formatsize.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/gl_format.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/gl_funcs.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/gl_funcs.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/glloader.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/hashlist.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/info.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/internalexport.def">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/internalexport_write.def">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/ktxint.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/memstream.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/memstream.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/strings.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/swap.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/texture.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/texture.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/texture1.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/texture1.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/texture2.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/texture2.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/uthash.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/version.h">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/version.h.rule">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/vk_format.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/vk_funcs.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/vk_funcs.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/vkformat_check.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/vkformat_enum.h">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/vkformat_str.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/vkloader.c">
+			<Option target="ktx"/>
+			<Option target="ktx_read"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/writer1.c">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/writer2.c">
+			<Option target="ktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2check/ktx2check.cpp">
+			<Option target="ktx2check"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2check/stdafx.h">
+			<Option target="ktx2check"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2check/version.h">
+			<Option target="ktx2check"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2check/version.h.rule">
+			<Option target="ktx2check"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2ktx2/ktx2ktx2.cpp">
+			<Option target="ktx2ktx2"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2ktx2/stdafx.h">
+			<Option target="ktx2ktx2"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2ktx2/version.h">
+			<Option target="ktx2ktx2"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2ktx2/version.h.rule">
+			<Option target="ktx2ktx2"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxinfo/ktxinfo.cpp">
+			<Option target="ktxinfo"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxinfo/stdafx.h">
+			<Option target="ktxinfo"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxinfo/version.h">
+			<Option target="ktxinfo"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxinfo/version.h.rule">
+			<Option target="ktxinfo"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxsc/ktxsc.cpp">
+			<Option target="ktxsc"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxsc/stdafx.h">
+			<Option target="ktxsc"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxsc/version.h">
+			<Option target="ktxsc"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxsc/version.h.rule">
+			<Option target="ktxsc"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/image.cc">
+			<Option target="toktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/image.hpp">
+			<Option target="toktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/jpgimage.cc">
+			<Option target="toktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/npbmimage.cc">
+			<Option target="toktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/pngimage.cc">
+			<Option target="toktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/stdafx.h">
+			<Option target="toktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/targetver.h">
+			<Option target="toktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/toktx.cc">
+			<Option target="toktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/version.h">
+			<Option target="toktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/version.h.rule">
+			<Option target="toktx"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils/argparser.cpp">
+			<Option target="objUtil"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils/argparser.h">
+			<Option target="objUtil"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils/ktxapp.h">
+			<Option target="objUtil"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils/scapp.h">
+			<Option target="objUtil"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils/unused.h">
+			<Option target="objUtil"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/asyncplusplus/Async++Config.cmake.in">
+			<Option virtualFolder="CMake Files\extern\asyncplusplus\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/asyncplusplus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\asyncplusplus\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/Catch2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\Catch2\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/Catch2/contrib/Catch.cmake">
+			<Option virtualFolder="CMake Files\extern\Catch2\contrib\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/GSL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\GSL\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/GSL/cmake/guidelineSupportLibrary.cmake">
+			<Option virtualFolder="CMake Files\extern\GSL\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/GSL/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\GSL\include\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/cmake/cputypetest.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/cmake/jni.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/cmake/mkvk.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/cmake/version.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/cmake/xcode.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/cmake/modules/FindBash.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\cmake\modules\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/interface/basisu_c_binding/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\interface\basisu_c_binding\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\lib\astc-encoder\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\lib\astc-encoder\Source\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/cmake_core.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\lib\astc-encoder\Source\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tools\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2check/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tools\ktx2check\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2ktx2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tools\ktx2ktx2\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxinfo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tools\ktxinfo\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxsc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tools\ktxsc\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tools\toktx\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tests\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tests/ktx2check-tests.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tests\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tests/toktx-tests.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tests\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/cmake-modules/GetGitRevisionDescription.cmake">
+			<Option virtualFolder="CMake Files\extern\cmake-modules\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\libwebp\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/WebPConfig.cmake.in">
+			<Option virtualFolder="CMake Files\extern\libwebp\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/config.h.in">
+			<Option virtualFolder="CMake Files\extern\libwebp\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/cpu.cmake">
+			<Option virtualFolder="CMake Files\extern\libwebp\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/deps.cmake">
+			<Option virtualFolder="CMake Files\extern\libwebp\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/src/libwebp.pc.in">
+			<Option virtualFolder="CMake Files\extern\libwebp\src\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/src/libwebpdecoder.pc.in">
+			<Option virtualFolder="CMake Files\extern\libwebp\src\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/src/demux/libwebpdemux.pc.in">
+			<Option virtualFolder="CMake Files\extern\libwebp\src\demux\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/uriparser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\uriparser\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/uriparser/liburiparser.pc.in">
+			<Option virtualFolder="CMake Files\extern\uriparser\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/uriparser/src/UriConfig.h.in">
+			<Option virtualFolder="CMake Files\extern\uriparser\src\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/uriparser/cmake/uriparser-config.cmake.in">
+			<Option virtualFolder="CMake Files\extern\uriparser\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\draco\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco-config.cmake.template">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco.pc.template">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_build_definitions.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_cpu_detection.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_dependencies.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_emscripten.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_flags.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_helpers.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_install.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_intrinsics.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_options.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_sanitizer.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_targets.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_tests.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_variables.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\glm\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\glm\glm\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/spdlog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\spdlog\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/spdlog/cmake/ide.cmake">
+			<Option virtualFolder="CMake Files\extern\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/spdlog/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\extern\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/sqlite3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\sqlite3\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/sqlite3/cesium-sqlite3.h">
+			<Option virtualFolder="CMake Files\extern\sqlite3\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/modp_b64/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\modp_b64\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/expected-lite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\expected-lite\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/expected-lite/cmake/expected-lite-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\extern\expected-lite\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/expected-lite/cmake/expected-lite-config.cmake.in">
+			<Option virtualFolder="CMake Files\extern\expected-lite\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/cpp-httplib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\cpp-httplib\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/cpp-httplib/httplibConfig.cmake.in">
+			<Option virtualFolder="CMake Files\extern\cpp-httplib\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libmorton/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\libmorton\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libmorton/data/libmorton.pc.in">
+			<Option virtualFolder="CMake Files\extern\libmorton\data\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libmorton/data/libmortonConfig.cmake.in">
+			<Option virtualFolder="CMake Files\extern\libmorton\data\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/libjpeg-turbo/tmp/libjpeg-turbo-mkdirs.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\extern\libjpeg-turbo\tmp\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumUtility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumUtility\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumGltf\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGeometry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumGeometry\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGeospatial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumGeospatial\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumJsonReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumJsonReader\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumJsonWriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumJsonWriter\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumGltfReader\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfWriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumGltfWriter\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumAsync/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumAsync\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTiles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Cesium3DTiles\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Cesium3DTilesReader\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesWriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Cesium3DTilesWriter\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesSelection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Cesium3DTilesSelection\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumIonClient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumIonClient\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumNativeTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumNativeTests\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

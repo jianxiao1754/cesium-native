@@ -1,0 +1,1881 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c95734208d2d76d15af6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "extern",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5,
+						16,
+						17,
+						18,
+						19,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern-Debug-88bde94350c4fc5056f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extern",
+					"targetIndexes" : 
+					[
+						45,
+						88,
+						92,
+						96
+					]
+				},
+				{
+					"build" : "extern/Catch2",
+					"jsonFile" : "directory-extern.Catch2-Debug-1b4068a9a02d6f1788a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "extern/Catch2"
+				},
+				{
+					"build" : "extern/GSL",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-extern.GSL-Debug-fff26b83a33ef4452e6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "extern/GSL"
+				},
+				{
+					"build" : "extern/GSL/include",
+					"jsonFile" : "directory-extern.GSL.include-Debug-28c16d9be4c0216d884e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.3"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "extern/GSL/include"
+				},
+				{
+					"build" : "extern/KTX-Software",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						9,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.KTX-Software-Debug-a8c696f8f771a61afed9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "extern/KTX-Software",
+					"targetIndexes" : 
+					[
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						77,
+						82,
+						83,
+						90
+					]
+				},
+				{
+					"build" : "extern/KTX-Software/interface/basisu_c_binding",
+					"jsonFile" : "directory-extern.KTX-Software.interface.basisu_c_binding-Debug-24e171fb33adfcdcd118.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "extern/KTX-Software/interface/basisu_c_binding",
+					"targetIndexes" : 
+					[
+						91
+					]
+				},
+				{
+					"build" : "extern/KTX-Software/lib/astc-encoder",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-extern.KTX-Software.lib.astc-encoder-Debug-3c5b476ebd19ebf5529c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "extern/KTX-Software/lib/astc-encoder"
+				},
+				{
+					"build" : "extern/KTX-Software/lib/astc-encoder/Source",
+					"jsonFile" : "directory-extern.KTX-Software.lib.astc-encoder.Source-Debug-8fab5b421c5156a3e8f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 5,
+					"source" : "extern/KTX-Software/lib/astc-encoder/Source",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "extern/KTX-Software/tools",
+					"childIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.KTX-Software.tools-Debug-663c46df5ac30bd7008d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "extern/KTX-Software/tools"
+				},
+				{
+					"build" : "extern/KTX-Software/tools/ktx2check",
+					"jsonFile" : "directory-extern.KTX-Software.tools.ktx2check-Debug-28a0237abca4734e671a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 3,
+					"source" : "extern/KTX-Software/tools/ktx2check",
+					"targetIndexes" : 
+					[
+						78,
+						79
+					]
+				},
+				{
+					"build" : "extern/KTX-Software/tools/ktx2ktx2",
+					"jsonFile" : "directory-extern.KTX-Software.tools.ktx2ktx2-Debug-5b2b4f9c71a64fee0a69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 3,
+					"source" : "extern/KTX-Software/tools/ktx2ktx2",
+					"targetIndexes" : 
+					[
+						80,
+						81
+					]
+				},
+				{
+					"build" : "extern/KTX-Software/tools/ktxinfo",
+					"jsonFile" : "directory-extern.KTX-Software.tools.ktxinfo-Debug-a227506e36b270af69cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 3,
+					"source" : "extern/KTX-Software/tools/ktxinfo",
+					"targetIndexes" : 
+					[
+						84,
+						85
+					]
+				},
+				{
+					"build" : "extern/KTX-Software/tools/ktxsc",
+					"jsonFile" : "directory-extern.KTX-Software.tools.ktxsc-Debug-62c61a1f6aae78e497f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 3,
+					"source" : "extern/KTX-Software/tools/ktxsc",
+					"targetIndexes" : 
+					[
+						86,
+						87
+					]
+				},
+				{
+					"build" : "extern/KTX-Software/tools/toktx",
+					"jsonFile" : "directory-extern.KTX-Software.tools.toktx-Debug-fad57fd6f7ff5da06c12.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 3,
+					"source" : "extern/KTX-Software/tools/toktx",
+					"targetIndexes" : 
+					[
+						97,
+						98
+					]
+				},
+				{
+					"build" : "extern/KTX-Software/tests",
+					"jsonFile" : "directory-extern.KTX-Software.tests-Debug-09d4f862fe8ae1efa479.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "extern/KTX-Software/tests"
+				},
+				{
+					"build" : "extern/libwebp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.libwebp-Debug-78e26e8231b6bbb2d653.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "extern/libwebp",
+					"targetIndexes" : 
+					[
+						93,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108
+					]
+				},
+				{
+					"build" : "extern/uriparser",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.uriparser-Debug-033794ac299300f193ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "extern/uriparser",
+					"targetIndexes" : 
+					[
+						99
+					]
+				},
+				{
+					"build" : "extern/draco",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.draco-Debug-0564ce0446941791c736.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 8,
+					"source" : "extern/draco",
+					"targetIndexes" : 
+					[
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76
+					]
+				},
+				{
+					"build" : "extern/GLM",
+					"childIndexes" : 
+					[
+						20
+					],
+					"jsonFile" : "directory-extern.GLM-Debug-f272bf0705c112dd57a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 9,
+					"source" : "extern/glm"
+				},
+				{
+					"build" : "extern/GLM/glm",
+					"jsonFile" : "directory-extern.GLM.glm-Debug-4db5ba9e2e5700b82f73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 9,
+					"source" : "extern/glm/glm"
+				},
+				{
+					"build" : "extern/asyncplusplus",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.asyncplusplus-Debug-3ecde10e94cb696ff356.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 10,
+					"source" : "extern/asyncplusplus",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "extern/spdlog",
+					"jsonFile" : "directory-extern.spdlog-Debug-f669497d22f2dfb4f89c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 11,
+					"source" : "extern/spdlog",
+					"targetIndexes" : 
+					[
+						94
+					]
+				},
+				{
+					"build" : "extern/sqlite3",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.sqlite3-Debug-3ecdf53923008badebea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 12,
+					"source" : "extern/sqlite3",
+					"targetIndexes" : 
+					[
+						95
+					]
+				},
+				{
+					"build" : "extern/modp_b64",
+					"jsonFile" : "directory-extern.modp_b64-Debug-c89d3cd8f9ea937b3357.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extern/modp_b64",
+					"targetIndexes" : 
+					[
+						89
+					]
+				},
+				{
+					"build" : "extern/expected-lite",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.expected-lite-Debug-2e84549085462da95f14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 13,
+					"source" : "extern/expected-lite"
+				},
+				{
+					"build" : "extern/cpp-httplib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.cpp-httplib-Debug-c8fc8e1ee439c9c28deb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 14,
+					"source" : "extern/cpp-httplib"
+				},
+				{
+					"build" : "extern/libmorton",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.libmorton-Debug-675d549cc492030d740b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 15,
+					"source" : "extern/libmorton"
+				},
+				{
+					"build" : "CesiumUtility",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CesiumUtility-Debug-e3dd684eef683b3ffb3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CesiumUtility",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "CesiumGltf",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CesiumGltf-Debug-ee8c108ed7753bfb9a10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CesiumGltf",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "CesiumGeometry",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CesiumGeometry-Debug-dab246a054f585b53244.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CesiumGeometry",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "CesiumGeospatial",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CesiumGeospatial-Debug-d5543759a91da3cadeef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CesiumGeospatial",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "CesiumJsonReader",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CesiumJsonReader-Debug-e0e37cef7f9ff196339a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CesiumJsonReader",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "CesiumJsonWriter",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CesiumJsonWriter-Debug-d541e2ebd58f82718a2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CesiumJsonWriter",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "CesiumGltfReader",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CesiumGltfReader-Debug-fef06bd15028142c466e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CesiumGltfReader",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "CesiumGltfWriter",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CesiumGltfWriter-Debug-1e68f242e07e64cd2f1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CesiumGltfWriter",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "CesiumAsync",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CesiumAsync-Debug-18a1c39182dd4ca2d51b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CesiumAsync",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Cesium3DTiles",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Cesium3DTiles-Debug-86a599867d4863687428.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Cesium3DTiles",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Cesium3DTilesReader",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Cesium3DTilesReader-Debug-62596dd63ed34b436a97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Cesium3DTilesReader",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Cesium3DTilesWriter",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Cesium3DTilesWriter-Debug-8172a562cac8b3d042e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Cesium3DTilesWriter",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Cesium3DTilesSelection",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Cesium3DTilesSelection-Debug-0a1172ead6ea81b43f36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Cesium3DTilesSelection",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "CesiumIonClient",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CesiumIonClient-Debug-9669629d85a40deec704.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CesiumIonClient",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "CesiumNativeTests",
+					"jsonFile" : "directory-CesiumNativeTests-Debug-5524972c484ec86c41b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CesiumNativeTests",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "doc",
+					"jsonFile" : "directory-doc-Debug-6029fece2c59a9c3a315.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						24,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
+					],
+					"name" : "cesium-native",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						44,
+						45,
+						88,
+						89,
+						92,
+						96
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GSL",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						5,
+						6,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"name" : "KTX-Software",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						90,
+						91,
+						97,
+						98
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "astcencoder",
+					"parentIndex" : 3
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "astcenc-avx2",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "WebP",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						93,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "uriparser",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						99
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "draco",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19,
+						20
+					],
+					"name" : "glm",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "Async++",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						94
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "sqlite3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						95
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "expected_lite",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "httplib",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "libmorton",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 21,
+					"id" : "Async++::@be6564aa5c64527e2a11",
+					"jsonFile" : "target-Async++-Debug-52b10f576bd94671f8eb.json",
+					"name" : "Async++",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "Cesium3DTiles::@1bf52e55af593dad9139",
+					"jsonFile" : "target-Cesium3DTiles-Debug-6ac194126b99604e4677.json",
+					"name" : "Cesium3DTiles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "Cesium3DTilesReader::@031f4c2c5a677a1bb983",
+					"jsonFile" : "target-Cesium3DTilesReader-Debug-8150db03564e6c407542.json",
+					"name" : "Cesium3DTilesReader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "Cesium3DTilesSelection::@780c3355b4914d486b8a",
+					"jsonFile" : "target-Cesium3DTilesSelection-Debug-c158fed67ce38bc367f6.json",
+					"name" : "Cesium3DTilesSelection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "Cesium3DTilesWriter::@1ac42394623aae25d68a",
+					"jsonFile" : "target-Cesium3DTilesWriter-Debug-58e36d44b0e33c935b80.json",
+					"name" : "Cesium3DTilesWriter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "CesiumAsync::@c3b046953ef8748376be",
+					"jsonFile" : "target-CesiumAsync-Debug-bd7b3772c4f78c0766aa.json",
+					"name" : "CesiumAsync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "CesiumGeometry::@f35d40b38ac61c57330a",
+					"jsonFile" : "target-CesiumGeometry-Debug-69021e4e56de942ff8eb.json",
+					"name" : "CesiumGeometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "CesiumGeospatial::@3275fa26bcaf74fc59b6",
+					"jsonFile" : "target-CesiumGeospatial-Debug-3f86a37a12a66bf93865.json",
+					"name" : "CesiumGeospatial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "CesiumGltf::@81d30fbd1740eb30874c",
+					"jsonFile" : "target-CesiumGltf-Debug-3d29e31641ba7c714b12.json",
+					"name" : "CesiumGltf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "CesiumGltfReader::@6bba41147e8c479a4854",
+					"jsonFile" : "target-CesiumGltfReader-Debug-9327163665974b708b90.json",
+					"name" : "CesiumGltfReader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "CesiumGltfWriter::@643b982e43988849ba7c",
+					"jsonFile" : "target-CesiumGltfWriter-Debug-792d33ef485d4a9cbd2b.json",
+					"name" : "CesiumGltfWriter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "CesiumIonClient::@50f240ae10066cd9d7f6",
+					"jsonFile" : "target-CesiumIonClient-Debug-50dc3c21ba0af0d88dca.json",
+					"name" : "CesiumIonClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "CesiumJsonReader::@d8333e423b833087cc2c",
+					"jsonFile" : "target-CesiumJsonReader-Debug-c19cd24186cb31bb06a7.json",
+					"name" : "CesiumJsonReader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "CesiumJsonWriter::@4ffe821727ce508bf476",
+					"jsonFile" : "target-CesiumJsonWriter-Debug-5c7d6fe50abd5a58f1c5.json",
+					"name" : "CesiumJsonWriter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "CesiumUtility::@cd397541a3743d204776",
+					"jsonFile" : "target-CesiumUtility-Debug-273a4ce32db7d5a7e1d9.json",
+					"name" : "CesiumUtility",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Continuous::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-Continuous-Debug-806d60e3706d19334f4e.json",
+					"name" : "Continuous",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousBuild::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ContinuousBuild-Debug-9c47c4157486937f86af.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousConfigure::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ContinuousConfigure-Debug-4b97315de618765b0210.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousCoverage::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ContinuousCoverage-Debug-7b3a6dafc500a3b63365.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousMemCheck::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-670fefc35675a06996cf.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousStart::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ContinuousStart-Debug-55017b292057cc3c6d22.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousSubmit::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ContinuousSubmit-Debug-2a4001218f8f93897d9c.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousTest::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ContinuousTest-Debug-a82482674d330325b71e.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ContinuousUpdate::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ContinuousUpdate-Debug-76851036fac31c412d44.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Experimental::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-Experimental-Debug-605b136041652c1b3710.json",
+					"name" : "Experimental",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalBuild::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ExperimentalBuild-Debug-905508e0df7613047b10.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalConfigure::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-38d078b8db0fbbaeefb7.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalCoverage::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-2f3c56f7f6b975491b8c.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalMemCheck::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-8a92a4fe23c43a1ab981.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalStart::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ExperimentalStart-Debug-399914b3d5c1cd1cb2c9.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalSubmit::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-bf057745271320ab7718.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalTest::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ExperimentalTest-Debug-44744934f69a9b742b40.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ExperimentalUpdate::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-1bb0c3768f1f0e2d3435.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Nightly::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-Nightly-Debug-043336d240d3ef6dff43.json",
+					"name" : "Nightly",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyBuild::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-NightlyBuild-Debug-dce39c801c3c03d45e11.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyConfigure::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-NightlyConfigure-Debug-28ae4d74d9ee04b13150.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyCoverage::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-NightlyCoverage-Debug-8ce211c9091a44623bac.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyMemCheck::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-NightlyMemCheck-Debug-a2e02f4a5f7a0504ec2c.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyMemoryCheck::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-f7512327723f7d99bca7.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyStart::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-NightlyStart-Debug-ad7bc09e11a907650041.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlySubmit::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-NightlySubmit-Debug-5e4140a6d043e4126d1e.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyTest::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-NightlyTest-Debug-f3538833e32f5ecab0ef.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "NightlyUpdate::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-NightlyUpdate-Debug-3fe1a88f62e88073529c.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "astcenc-avx2-static::@82b55ab5f2ea17b19b9c",
+					"jsonFile" : "target-astcenc-avx2-static-Debug-24fdec84fd76427fcda4.json",
+					"name" : "astcenc-avx2-static",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "cesium-native-tests::@960d69fde730932358cd",
+					"jsonFile" : "target-cesium-native-tests-Debug-4b0163a771f5cc5dc2c2.json",
+					"name" : "cesium-native-tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "csprng::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-csprng-Debug-1e9fbe39d41e33db5690.json",
+					"name" : "csprng",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_animation::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_animation-Debug-03ceee5af20ca76a73e8.json",
+					"name" : "draco_animation",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_animation_dec::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_animation_dec-Debug-ffdbba847003ac0e236b.json",
+					"name" : "draco_animation_dec",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_animation_enc::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_animation_enc-Debug-95d30cf4e2ccd11a2f0c.json",
+					"name" : "draco_animation_enc",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_attributes::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_attributes-Debug-f7a8e42a42ba9db02525.json",
+					"name" : "draco_attributes",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_attributes_dec::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_attributes_dec-Debug-d78ecb4149be468732ef.json",
+					"name" : "draco_compression_attributes_dec",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_attributes_enc::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_attributes_enc-Debug-aacdbc88a036db29acb3.json",
+					"name" : "draco_compression_attributes_enc",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_attributes_pred_schemes_dec::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_attributes_pred_schemes_dec-Debug-7da08c582baf983c337f.json",
+					"name" : "draco_compression_attributes_pred_schemes_dec",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_attributes_pred_schemes_enc::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_attributes_pred_schemes_enc-Debug-d70f3585c90f0ee70923.json",
+					"name" : "draco_compression_attributes_pred_schemes_enc",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_bit_coders::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_bit_coders-Debug-66d69a941b15cb398d55.json",
+					"name" : "draco_compression_bit_coders",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_decode::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_decode-Debug-5cd4aed0bc710acdcc44.json",
+					"name" : "draco_compression_decode",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_encode::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_encode-Debug-0ddd6be473deb008469c.json",
+					"name" : "draco_compression_encode",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_entropy::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_entropy-Debug-fe7eb83daa93296b29b3.json",
+					"name" : "draco_compression_entropy",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_mesh_dec::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_mesh_dec-Debug-8f724a34a32423a2bb52.json",
+					"name" : "draco_compression_mesh_dec",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_mesh_enc::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_mesh_enc-Debug-d67cc6ad5e5474847eb0.json",
+					"name" : "draco_compression_mesh_enc",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_mesh_traverser::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_mesh_traverser-Debug-8458666a32a2f48a9dd1.json",
+					"name" : "draco_compression_mesh_traverser",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_point_cloud_dec::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_point_cloud_dec-Debug-b8d6a1a86c3ddd3ca87d.json",
+					"name" : "draco_compression_point_cloud_dec",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_compression_point_cloud_enc::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_compression_point_cloud_enc-Debug-5e9e07a4a2018b35912a.json",
+					"name" : "draco_compression_point_cloud_enc",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_core::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_core-Debug-300f275c4ee55296d1b3.json",
+					"name" : "draco_core",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_dec_config::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_dec_config-Debug-e7267ca5d0b71be5dc43.json",
+					"name" : "draco_dec_config",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_decoder::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_decoder-Debug-e2e05800d9fa24650145.json",
+					"name" : "draco_decoder",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_enc_config::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_enc_config-Debug-fc632c64b532ad211687.json",
+					"name" : "draco_enc_config",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_encoder::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_encoder-Debug-58995550ec68d2a6c923.json",
+					"name" : "draco_encoder",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_io::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_io-Debug-7db754d098b67c98cca3.json",
+					"name" : "draco_io",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_mesh::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_mesh-Debug-f004caefdf57014bc017.json",
+					"name" : "draco_mesh",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_metadata::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_metadata-Debug-c5ac10133c7d4241d111.json",
+					"name" : "draco_metadata",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_metadata_dec::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_metadata_dec-Debug-15033238ab9855998dc7.json",
+					"name" : "draco_metadata_dec",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_metadata_enc::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_metadata_enc-Debug-1aa6faf49c4e6b7a723d.json",
+					"name" : "draco_metadata_enc",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_point_cloud::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_point_cloud-Debug-a20188bb797b0ce43bd1.json",
+					"name" : "draco_point_cloud",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_points_dec::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_points_dec-Debug-2594e1166dd8cd3211c0.json",
+					"name" : "draco_points_dec",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_points_enc::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_points_enc-Debug-c205a4f98d85cdbca7de.json",
+					"name" : "draco_points_enc",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "draco_static::@d4298ebd35d74cac9a3f",
+					"jsonFile" : "target-draco_static-Debug-631d94ff05fd0c31e0fc.json",
+					"name" : "draco_static",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ktx::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ktx-Debug-85bddc39ae14aba68cb3.json",
+					"name" : "ktx",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ktx2check::@f73a559f0261a4e640d4",
+					"jsonFile" : "target-ktx2check-Debug-86395a34e6789852f346.json",
+					"name" : "ktx2check",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ktx2check_version::@f73a559f0261a4e640d4",
+					"jsonFile" : "target-ktx2check_version-Debug-f9626682cf72cf9fa3d5.json",
+					"name" : "ktx2check_version",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ktx2ktx2::@5b2ec682feb3fd0ab930",
+					"jsonFile" : "target-ktx2ktx2-Debug-6b20d297b900b7cabbfc.json",
+					"name" : "ktx2ktx2",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ktx2ktx2_version::@5b2ec682feb3fd0ab930",
+					"jsonFile" : "target-ktx2ktx2_version-Debug-45e6c26c56700b2cb5e5.json",
+					"name" : "ktx2ktx2_version",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ktx_read::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ktx_read-Debug-e4b6e5df7f7750204e28.json",
+					"name" : "ktx_read",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ktx_version::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-ktx_version-Debug-e777790115359d4f7945.json",
+					"name" : "ktx_version",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ktxinfo::@97391bed1509ab82777a",
+					"jsonFile" : "target-ktxinfo-Debug-f7dd242f9885621ef1e9.json",
+					"name" : "ktxinfo",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ktxinfo_version::@97391bed1509ab82777a",
+					"jsonFile" : "target-ktxinfo_version-Debug-5d356aeb18d03f806a8c.json",
+					"name" : "ktxinfo_version",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ktxsc::@d82d9b471a6c41ad491b",
+					"jsonFile" : "target-ktxsc-Debug-8311c6da14f3c426398b.json",
+					"name" : "ktxsc",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ktxsc_version::@d82d9b471a6c41ad491b",
+					"jsonFile" : "target-ktxsc_version-Debug-91d1526f25b54ed8ab43.json",
+					"name" : "ktxsc_version",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libjpeg-turbo::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-libjpeg-turbo-Debug-4fd225b8e95d5e7c7af4.json",
+					"name" : "libjpeg-turbo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "modp_b64::@cef9afe0cfc566fe3f5d",
+					"jsonFile" : "target-modp_b64-Debug-ee8b58a48f31605076ed.json",
+					"name" : "modp_b64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "objUtil::@1f45bfcee8b52cae0b90",
+					"jsonFile" : "target-objUtil-Debug-bbc156871c7544665f73.json",
+					"name" : "objUtil",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "obj_basisu_cbind::@2d61957559a0930308bb",
+					"jsonFile" : "target-obj_basisu_cbind-Debug-1daefdb8d86e0eb3899f.json",
+					"name" : "obj_basisu_cbind",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "s2geometry::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-s2geometry-Debug-76a7c6bb4f168fc3a75b.json",
+					"name" : "s2geometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "sharpyuv::@a0bd244d559eed9a0c1d",
+					"jsonFile" : "target-sharpyuv-Debug-571680dd24734e76036f.json",
+					"name" : "sharpyuv",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "spdlog::@2be8bbbfd43a5375bf0e",
+					"jsonFile" : "target-spdlog-Debug-32f3b96e9a623c32be16.json",
+					"name" : "spdlog",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "sqlite3::@cf3f1bccc66fd96c99a5",
+					"jsonFile" : "target-sqlite3-Debug-8de9056d238826f4b4c5.json",
+					"name" : "sqlite3",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tinyxml2::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-tinyxml2-Debug-7bf1a95ef12b22145d3f.json",
+					"name" : "tinyxml2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "toktx::@c33cf517b8fb0b6d7954",
+					"jsonFile" : "target-toktx-Debug-1162f3b9fef74515ea0f.json",
+					"name" : "toktx",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "toktx_version::@c33cf517b8fb0b6d7954",
+					"jsonFile" : "target-toktx_version-Debug-922b6a9ff8d79fe40c33.json",
+					"name" : "toktx_version",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "uriparser::@02988cca979bc22941f2",
+					"jsonFile" : "target-uriparser-Debug-2e0b926ef72ed0700d7d.json",
+					"name" : "uriparser",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "webp::@a0bd244d559eed9a0c1d",
+					"jsonFile" : "target-webp-Debug-61df9f64a89bf700a3e0.json",
+					"name" : "webp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "webpdecode::@a0bd244d559eed9a0c1d",
+					"jsonFile" : "target-webpdecode-Debug-0b80f2f0f33a6eff1e1c.json",
+					"name" : "webpdecode",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "webpdecoder::@a0bd244d559eed9a0c1d",
+					"jsonFile" : "target-webpdecoder-Debug-aa9af7d91fbb9c4f05e7.json",
+					"name" : "webpdecoder",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "webpdemux::@a0bd244d559eed9a0c1d",
+					"jsonFile" : "target-webpdemux-Debug-d5c1014022b170b559b0.json",
+					"name" : "webpdemux",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "webpdsp::@a0bd244d559eed9a0c1d",
+					"jsonFile" : "target-webpdsp-Debug-7eae90406cf20cb9d417.json",
+					"name" : "webpdsp",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "webpdspdecode::@a0bd244d559eed9a0c1d",
+					"jsonFile" : "target-webpdspdecode-Debug-dc9652af51c140173d15.json",
+					"name" : "webpdspdecode",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "webpencode::@a0bd244d559eed9a0c1d",
+					"jsonFile" : "target-webpencode-Debug-41c9332d7bba9ef531f8.json",
+					"name" : "webpencode",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "webputils::@a0bd244d559eed9a0c1d",
+					"jsonFile" : "target-webputils-Debug-df17c40387040613b31f.json",
+					"name" : "webputils",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "webputilsdecode::@a0bd244d559eed9a0c1d",
+					"jsonFile" : "target-webputilsdecode-Debug-a49a3d51f1a4c9914dcd.json",
+					"name" : "webputilsdecode",
+					"projectIndex" : 6
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug",
+		"source" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,927 @@
+The system is: Windows - 10.0.22621 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/devkits/JetBrains/CLion/bin/mingw/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.exe"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/devkits/JetBrains/CLion/bin/mingw/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ece0b/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ece0b.dir\build.make CMakeFiles/cmTC_ece0b.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ece0b.dir/CMakeCXXCompilerABI.cpp.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_ece0b.dir\CMakeCXXCompilerABI.cpp.obj -c D:\devkits\JetBrains\CLion\bin\cmake\win\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=D:\devkits\JetBrains\CLion\bin\mingw\bin\g++.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_ece0b.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_ece0b.dir\'
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT D:\devkits\JetBrains\CLion\bin\cmake\win\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_ece0b.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\JIANLI~1\AppData\Local\Temp\cc8jpkTf.s
+GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "/win/include"
+ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../include"
+ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_ece0b.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_ece0b.dir\'
+ as -v -o CMakeFiles\cmTC_ece0b.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\JIANLI~1\AppData\Local\Temp\cc8jpkTf.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_ece0b.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_ece0b.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_ece0b.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ece0b.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_ece0b.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_ece0b.dir/objects.a @CMakeFiles\cmTC_ece0b.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_ece0b.dir/objects.a -Wl,--no-whole-archive -o cmTC_ece0b.exe -Wl,--out-implib,libcmTC_ece0b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:\devkits\JetBrains\CLion\bin\mingw\bin\g++.exe
+COLLECT_LTO_WRAPPER=D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ece0b.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ece0b.'
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_ece0b.exe D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_ece0b.dir/objects.a --no-whole-archive --out-implib libcmTC_ece0b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ece0b.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ece0b.'
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+    add: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+    add: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+    add: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+    add: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+  collapse include dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+  collapse include dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+  collapse include dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include] ==> [D:/devkits/JetBrains/CLion/bin/mingw/include]
+  collapse include dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/include]
+  implicit include dirs: [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/devkits/JetBrains/CLion/bin/mingw/include;D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ece0b/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ece0b.dir\build.make CMakeFiles/cmTC_ece0b.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ece0b.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\devkits\JetBrains\CLion\bin\mingw\bin\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_ece0b.dir\CMakeCXXCompilerABI.cpp.obj -c D:\devkits\JetBrains\CLion\bin\cmake\win\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\devkits\JetBrains\CLion\bin\mingw\bin\g++.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_ece0b.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_ece0b.dir\']
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT D:\devkits\JetBrains\CLion\bin\cmake\win\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_ece0b.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\JIANLI~1\AppData\Local\Temp\cc8jpkTf.s]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"]
+  ignore line: [ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/win/include"]
+  ignore line: [ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_ece0b.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_ece0b.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_ece0b.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\JIANLI~1\AppData\Local\Temp\cc8jpkTf.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_ece0b.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_ece0b.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_ece0b.exe]
+  ignore line: [D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_ece0b.dir\link.txt --verbose=1]
+  ignore line: [D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_ece0b.dir/objects.a]
+  ignore line: [D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_ece0b.dir/objects.a @CMakeFiles\cmTC_ece0b.dir\objects1.rsp]
+  ignore line: [D:\devkits\JetBrains\CLion\bin\mingw\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_ece0b.dir/objects.a -Wl --no-whole-archive -o cmTC_ece0b.exe -Wl --out-implib libcmTC_ece0b.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\devkits\JetBrains\CLion\bin\mingw\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ece0b.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ece0b.']
+  link line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_ece0b.exe D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_ece0b.dir/objects.a --no-whole-archive --out-implib libcmTC_ece0b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+    arg [D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_ece0b.exe] ==> ignore
+    arg [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+    arg [-LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+    arg [-LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc] ==> dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc]
+    arg [-LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+    arg [-LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_ece0b.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_ece0b.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+    arg [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+  collapse obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o]
+  collapse obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  collapse library dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0]
+  collapse library dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc]
+  collapse library dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib]
+  collapse library dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+  implicit objs: [D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o;D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o;D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  implicit dirs: [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0;D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc;D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib;D:/devkits/JetBrains/CLion/bin/mingw/lib]
+  implicit fwks: []
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e1533/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e1533.dir\build.make CMakeFiles/cmTC_e1533.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1533.dir/CMakeCCompilerABI.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_e1533.dir\CMakeCCompilerABI.c.obj -c D:\devkits\JetBrains\CLion\bin\cmake\win\share\cmake-3.24\Modules\CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_e1533.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_e1533.dir\'
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT D:\devkits\JetBrains\CLion\bin\cmake\win\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_e1533.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\JIANLI~1\AppData\Local\Temp\ccBpSu8j.s
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "/win/include"
+ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../include"
+ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 23424b72d090e8b977a96775bde79257
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_e1533.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_e1533.dir\'
+ as -v -o CMakeFiles\cmTC_e1533.dir\CMakeCCompilerABI.c.obj C:\Users\JIANLI~1\AppData\Local\Temp\ccBpSu8j.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_e1533.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_e1533.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_e1533.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e1533.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_e1533.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_e1533.dir/objects.a @CMakeFiles\cmTC_e1533.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_e1533.dir/objects.a -Wl,--no-whole-archive -o cmTC_e1533.exe -Wl,--out-implib,libcmTC_e1533.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe
+COLLECT_LTO_WRAPPER=D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1533.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e1533.'
+ D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_e1533.exe D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_e1533.dir/objects.a --no-whole-archive --out-implib libcmTC_e1533.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1533.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e1533.'
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+    add: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include] ==> [D:/devkits/JetBrains/CLion/bin/mingw/include]
+  collapse include dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/include]
+  implicit include dirs: [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/devkits/JetBrains/CLion/bin/mingw/include;D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e1533/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e1533.dir\build.make CMakeFiles/cmTC_e1533.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e1533.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_e1533.dir\CMakeCCompilerABI.c.obj -c D:\devkits\JetBrains\CLion\bin\cmake\win\share\cmake-3.24\Modules\CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_e1533.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_e1533.dir\']
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT D:\devkits\JetBrains\CLion\bin\cmake\win\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_e1533.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\JIANLI~1\AppData\Local\Temp\ccBpSu8j.s]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/win/include"]
+  ignore line: [ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 23424b72d090e8b977a96775bde79257]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_e1533.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_e1533.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_e1533.dir\CMakeCCompilerABI.c.obj C:\Users\JIANLI~1\AppData\Local\Temp\ccBpSu8j.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_e1533.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_e1533.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_e1533.exe]
+  ignore line: [D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e1533.dir\link.txt --verbose=1]
+  ignore line: [D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_e1533.dir/objects.a]
+  ignore line: [D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_e1533.dir/objects.a @CMakeFiles\cmTC_e1533.dir\objects1.rsp]
+  ignore line: [D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_e1533.dir/objects.a -Wl --no-whole-archive -o cmTC_e1533.exe -Wl --out-implib libcmTC_e1533.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1533.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e1533.']
+  link line: [ D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_e1533.exe D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_e1533.dir/objects.a --no-whole-archive --out-implib libcmTC_e1533.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+    arg [D:/devkits/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_e1533.exe] ==> ignore
+    arg [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+    arg [-LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+    arg [-LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc] ==> dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc]
+    arg [-LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+    arg [-LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LD:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_e1533.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_e1533.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+    arg [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+  collapse obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o]
+  collapse obj [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  collapse library dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0]
+  collapse library dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc]
+  collapse library dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib]
+  collapse library dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [D:/devkits/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [D:/devkits/JetBrains/CLion/bin/mingw/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex;kernel32]
+  implicit objs: [D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o;D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o;D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  implicit dirs: [D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0;D:/devkits/JetBrains/CLion/bin/mingw/lib/gcc;D:/devkits/JetBrains/CLion/bin/mingw/x86_64-w64-mingw32/lib;D:/devkits/JetBrains/CLion/bin/mingw/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP16 succeeded with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_cc053/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cc053.dir\build.make CMakeFiles/cmTC_cc053.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc053.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DHAVE_BUILTIN_BSWAP16  -fdiagnostics-color=always -o CMakeFiles\cmTC_cc053.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_cc053.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_cc053.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_cc053.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_cc053.dir/objects.a @CMakeFiles\cmTC_cc053.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_cc053.dir/objects.a -Wl,--no-whole-archive -o cmTC_cc053.exe -Wl,--out-implib,libcmTC_cc053.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cc053.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap16(0);
+      return 0;
+    }
+  
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP32 succeeded with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_6a4f4/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6a4f4.dir\build.make CMakeFiles/cmTC_6a4f4.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a4f4.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DHAVE_BUILTIN_BSWAP32  -fdiagnostics-color=always -o CMakeFiles\cmTC_6a4f4.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_6a4f4.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6a4f4.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_6a4f4.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_6a4f4.dir/objects.a @CMakeFiles\cmTC_6a4f4.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_6a4f4.dir/objects.a -Wl,--no-whole-archive -o cmTC_6a4f4.exe -Wl,--out-implib,libcmTC_6a4f4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6a4f4.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap32(0);
+      return 0;
+    }
+  
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP64 succeeded with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_390da/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_390da.dir\build.make CMakeFiles/cmTC_390da.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_390da.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DHAVE_BUILTIN_BSWAP64  -fdiagnostics-color=always -o CMakeFiles\cmTC_390da.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_390da.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_390da.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_390da.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_390da.dir/objects.a @CMakeFiles\cmTC_390da.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_390da.dir/objects.a -Wl,--no-whole-archive -o cmTC_390da.exe -Wl,--out-implib,libcmTC_390da.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_390da.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap64(0);
+      return 0;
+    }
+  
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e9e75/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e9e75.dir\build.make CMakeFiles/cmTC_e9e75.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9e75.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles\cmTC_e9e75.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_e9e75.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e9e75.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_e9e75.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_e9e75.dir/objects.a @CMakeFiles\cmTC_e9e75.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_e9e75.dir/objects.a -Wl,--no-whole-archive -o cmTC_e9e75.exe -Wl,--out-implib,libcmTC_e9e75.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e9e75.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C SOURCE FILE Test FLAG_HAVE_PTHREAD_PRIO_INHERIT succeeded with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_5992f/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5992f.dir\build.make CMakeFiles/cmTC_5992f.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5992f.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DFLAG_HAVE_PTHREAD_PRIO_INHERIT  -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_5992f.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_5992f.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_5992f.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_5992f.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_5992f.dir/objects.a @CMakeFiles\cmTC_5992f.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_5992f.dir/objects.a -Wl,--no-whole-archive -o cmTC_5992f.exe -Wl,--out-implib,libcmTC_5992f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5992f.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main (void) {
+          int attr = PTHREAD_PRIO_INHERIT;
+          return attr;
+        }
+      
+Performing C SOURCE FILE Test HAVE_MATH_LIBRARY succeeded with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_84f7d/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_84f7d.dir\build.make CMakeFiles/cmTC_84f7d.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84f7d.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DHAVE_MATH_LIBRARY  -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_84f7d.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_84f7d.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_84f7d.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_84f7d.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_84f7d.dir/objects.a @CMakeFiles\cmTC_84f7d.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_84f7d.dir/objects.a -Wl,--no-whole-archive -o cmTC_84f7d.exe -Wl,--out-implib,libcmTC_84f7d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_84f7d.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include <math.h>
+    int main(int argc, char** argv) {
+      return (int)pow(argc, 2.5);
+    }
+  
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_c5c6b/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c5c6b.dir\build.make CMakeFiles/cmTC_c5c6b.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5c6b.dir/STDC_HEADERS.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_c5c6b.dir\STDC_HEADERS.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\STDC_HEADERS.c
+Linking C executable cmTC_c5c6b.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_c5c6b.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_c5c6b.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_c5c6b.dir/objects.a @CMakeFiles\cmTC_c5c6b.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_c5c6b.dir/objects.a -Wl,--no-whole-archive -o cmTC_c5c6b.exe -Wl,--out-implib,libcmTC_c5c6b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c5c6b.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_8023d/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8023d.dir\build.make CMakeFiles/cmTC_8023d.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8023d.dir/HAVE_INTTYPES_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_8023d.dir\HAVE_INTTYPES_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c
+Linking C executable cmTC_8023d.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_8023d.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_8023d.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_8023d.dir/objects.a @CMakeFiles\cmTC_8023d.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_8023d.dir/objects.a -Wl,--no-whole-archive -o cmTC_8023d.exe -Wl,--out-implib,libcmTC_8023d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8023d.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_5e300/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5e300.dir\build.make CMakeFiles/cmTC_5e300.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e300.dir/HAVE_MEMORY_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_5e300.dir\HAVE_MEMORY_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c
+Linking C executable cmTC_5e300.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_5e300.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_5e300.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_5e300.dir/objects.a @CMakeFiles\cmTC_5e300.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_5e300.dir/objects.a -Wl,--no-whole-archive -o cmTC_5e300.exe -Wl,--out-implib,libcmTC_5e300.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5e300.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files shlwapi.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_74f06/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_74f06.dir\build.make CMakeFiles/cmTC_74f06.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74f06.dir/HAVE_SHLWAPI_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_74f06.dir\HAVE_SHLWAPI_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SHLWAPI_H.c
+Linking C executable cmTC_74f06.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_74f06.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_74f06.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_74f06.dir/objects.a @CMakeFiles\cmTC_74f06.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_74f06.dir/objects.a -Wl,--no-whole-archive -o cmTC_74f06.exe -Wl,--out-implib,libcmTC_74f06.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_74f06.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_2688e/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2688e.dir\build.make CMakeFiles/cmTC_2688e.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2688e.dir/HAVE_STDINT_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_2688e.dir\HAVE_STDINT_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c
+Linking C executable cmTC_2688e.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_2688e.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_2688e.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_2688e.dir/objects.a @CMakeFiles\cmTC_2688e.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_2688e.dir/objects.a -Wl,--no-whole-archive -o cmTC_2688e.exe -Wl,--out-implib,libcmTC_2688e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2688e.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_07513/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_07513.dir\build.make CMakeFiles/cmTC_07513.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07513.dir/HAVE_STDLIB_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_07513.dir\HAVE_STDLIB_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_STDLIB_H.c
+Linking C executable cmTC_07513.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_07513.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_07513.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_07513.dir/objects.a @CMakeFiles\cmTC_07513.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_07513.dir/objects.a -Wl,--no-whole-archive -o cmTC_07513.exe -Wl,--out-implib,libcmTC_07513.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_07513.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_19de5/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_19de5.dir\build.make CMakeFiles/cmTC_19de5.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19de5.dir/HAVE_STRINGS_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_19de5.dir\HAVE_STRINGS_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c
+Linking C executable cmTC_19de5.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_19de5.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_19de5.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_19de5.dir/objects.a @CMakeFiles\cmTC_19de5.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_19de5.dir/objects.a -Wl,--no-whole-archive -o cmTC_19de5.exe -Wl,--out-implib,libcmTC_19de5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_19de5.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_afc06/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_afc06.dir\build.make CMakeFiles/cmTC_afc06.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afc06.dir/HAVE_STRING_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_afc06.dir\HAVE_STRING_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_STRING_H.c
+Linking C executable cmTC_afc06.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_afc06.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_afc06.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_afc06.dir/objects.a @CMakeFiles\cmTC_afc06.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_afc06.dir/objects.a -Wl,--no-whole-archive -o cmTC_afc06.exe -Wl,--out-implib,libcmTC_afc06.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_afc06.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f056e/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f056e.dir\build.make CMakeFiles/cmTC_f056e.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f056e.dir/HAVE_SYS_STAT_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_f056e.dir\HAVE_SYS_STAT_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_STAT_H.c
+Linking C executable cmTC_f056e.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f056e.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_f056e.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_f056e.dir/objects.a @CMakeFiles\cmTC_f056e.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_f056e.dir/objects.a -Wl,--no-whole-archive -o cmTC_f056e.exe -Wl,--out-implib,libcmTC_f056e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f056e.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_3e7db/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3e7db.dir\build.make CMakeFiles/cmTC_3e7db.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e7db.dir/HAVE_SYS_TYPES_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_3e7db.dir\HAVE_SYS_TYPES_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c
+Linking C executable cmTC_3e7db.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_3e7db.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_3e7db.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_3e7db.dir/objects.a @CMakeFiles\cmTC_3e7db.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_3e7db.dir/objects.a -Wl,--no-whole-archive -o cmTC_3e7db.exe -Wl,--out-implib,libcmTC_3e7db.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3e7db.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_b9194/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b9194.dir\build.make CMakeFiles/cmTC_b9194.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9194.dir/HAVE_UNISTD_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_b9194.dir\HAVE_UNISTD_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c
+Linking C executable cmTC_b9194.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_b9194.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_b9194.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_b9194.dir/objects.a @CMakeFiles\cmTC_b9194.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_b9194.dir/objects.a -Wl,--no-whole-archive -o cmTC_b9194.exe -Wl,--out-implib,libcmTC_b9194.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b9194.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files wincodec.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_fbb26/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_fbb26.dir\build.make CMakeFiles/cmTC_fbb26.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbb26.dir/HAVE_WINCODEC_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_fbb26.dir\HAVE_WINCODEC_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_WINCODEC_H.c
+Linking C executable cmTC_fbb26.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_fbb26.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_fbb26.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_fbb26.dir/objects.a @CMakeFiles\cmTC_fbb26.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_fbb26.dir/objects.a -Wl,--no-whole-archive -o cmTC_fbb26.exe -Wl,--out-implib,libcmTC_fbb26.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_fbb26.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files windows.h exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_9dae6/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9dae6.dir\build.make CMakeFiles/cmTC_9dae6.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9dae6.dir/HAVE_WINDOWS_H.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_9dae6.dir\HAVE_WINDOWS_H.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c
+Linking C executable cmTC_9dae6.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_9dae6.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_9dae6.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_9dae6.dir/objects.a @CMakeFiles\cmTC_9dae6.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_9dae6.dir/objects.a -Wl,--no-whole-archive -o cmTC_9dae6.exe -Wl,--out-implib,libcmTC_9dae6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9dae6.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE41 succeeded with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_4b825/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4b825.dir\build.make CMakeFiles/cmTC_4b825.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b825.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DWEBP_HAVE_FLAG_SSE41 @CMakeFiles/cmTC_4b825.dir/includes_C.rsp -pthread -msse4.1 -fdiagnostics-color=always -o CMakeFiles\cmTC_4b825.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_4b825.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_4b825.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_4b825.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_4b825.dir/objects.a @CMakeFiles\cmTC_4b825.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread -msse4.1 -Wl,--whole-archive CMakeFiles\cmTC_4b825.dir/objects.a -Wl,--no-whole-archive -o cmTC_4b825.exe -Wl,--out-implib,libcmTC_4b825.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4b825.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+      #include "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE41)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_SSE2 succeeded with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_d970c/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d970c.dir\build.make CMakeFiles/cmTC_d970c.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d970c.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DWEBP_HAVE_FLAG_SSE2 @CMakeFiles/cmTC_d970c.dir/includes_C.rsp -pthread  -fdiagnostics-color=always -o CMakeFiles\cmTC_d970c.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_d970c.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d970c.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_d970c.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_d970c.dir/objects.a @CMakeFiles\cmTC_d970c.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe  -pthread  -Wl,--whole-archive CMakeFiles\cmTC_d970c.dir/objects.a -Wl,--no-whole-archive -o cmTC_d970c.exe -Wl,--out-implib,libcmTC_d970c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d970c.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+      #include "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_SSE2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test URIPARSER_COMPILER_SUPPORTS_VISIBILITY succeeded with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_93592/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_93592.dir\build.make CMakeFiles/cmTC_93592.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93592.dir/src.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -DURIPARSER_COMPILER_SUPPORTS_VISIBILITY  -fdiagnostics-color=always   -fvisibility=hidden -o CMakeFiles\cmTC_93592.dir\src.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_93592.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_93592.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_93592.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_93592.dir/objects.a @CMakeFiles\cmTC_93592.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_93592.dir/objects.a -Wl,--no-whole-archive -o cmTC_93592.exe -Wl,--out-implib,libcmTC_93592.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_93592.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the wprintf exist passed with the following output:
+Change Dir: D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_88244/fast && D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_88244.dir\build.make CMakeFiles/cmTC_88244.dir/build
+mingw32-make[1]: Entering directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88244.dir/CheckSymbolExists.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always -o CMakeFiles\cmTC_88244.dir\CheckSymbolExists.c.obj -c D:\projects\TestCesium\Plugins\CesiumForUnreal\extern\cesium-native\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+Linking C executable cmTC_88244.exe
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_88244.dir\link.txt --verbose=1
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_88244.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_88244.dir/objects.a @CMakeFiles\cmTC_88244.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_88244.dir/objects.a -Wl,--no-whole-archive -o cmTC_88244.exe -Wl,--out-implib,libcmTC_88244.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_88244.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wprintf
+  return ((int*)(&wprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

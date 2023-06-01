@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libCesiumJsonWriterd.a CMakeFiles/CesiumJsonWriter.dir/src/ExtensionWriterContext.cpp.obj CMakeFiles/CesiumJsonWriter.dir/src/JsonObjectWriter.cpp.obj CMakeFiles/CesiumJsonWriter.dir/src/JsonWriter.cpp.obj CMakeFiles/CesiumJsonWriter.dir/src/PrettyJsonWriter.cpp.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libCesiumJsonWriterd.a

@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libasync++d.a CMakeFiles/Async++.dir/src/scheduler.cpp.obj CMakeFiles/Async++.dir/src/threadpool_scheduler.cpp.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libasync++d.a

@@ -1,0 +1,879 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "extern/KTX-Software/libktx_readd.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_compile_options",
+			"target_compile_options",
+			"commom_lib_settings",
+			"target_compile_definitions",
+			"target_include_directories",
+			"set_source_files_properties",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"extern/KTX-Software/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 201,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 195,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 393,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 276,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 398,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 294,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 272,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 324,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 334,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 220,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 251,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 372,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 482,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 303,
+				"parent" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 325,
+				"parent" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 364,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O0"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-pedantic"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "BASISD_SUPPORT_FXT1=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BASISD_SUPPORT_KTX2=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BASISD_SUPPORT_KTX2_ZSTD=0"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "BASISU_NO_ITERATOR_DEBUG_LEVEL"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "KHRONOS_STATIC"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "KTX_API=__declspec(dllexport)"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "KTX_FEATURE_KTX1"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "KTX_FEATURE_KTX2"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "LIBKTX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				2,
+				25,
+				26
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O0"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-pedantic"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-Wno-sign-compare -Wno-unused-function -Wno-unused-variable -Wno-class-memaccess -Wno-maybe-uninitialized"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "BASISD_SUPPORT_FXT1=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BASISD_SUPPORT_KTX2=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BASISD_SUPPORT_KTX2_ZSTD=0"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "BASISU_NO_ITERATOR_DEBUG_LEVEL"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "KHRONOS_STATIC"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "KTX_API=__declspec(dllexport)"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "KTX_FEATURE_KTX1"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "KTX_FEATURE_KTX2"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "LIBKTX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O0"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-pedantic"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "BASISD_SUPPORT_FXT1=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BASISD_SUPPORT_KTX2=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BASISD_SUPPORT_KTX2_ZSTD=0"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "BASISU_NO_ITERATOR_DEBUG_LEVEL"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "KHRONOS_STATIC"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "KTX_API=__declspec(dllexport)"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "KTX_FEATURE_KTX1"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "KTX_FEATURE_KTX2"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "LIBKTX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/transcoder"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/basisu/zstd"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/other_include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/utils"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/dfdutils"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				13,
+				14,
+				15,
+				16,
+				19,
+				20,
+				21,
+				22,
+				27,
+				31,
+				32,
+				34,
+				36,
+				37,
+				38,
+				40,
+				44,
+				46,
+				47,
+				49,
+				51,
+				54,
+				56
+			]
+		}
+	],
+	"id" : "ktx_read::@1f45bfcee8b52cae0b90",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/cesium-native"
+		}
+	},
+	"name" : "ktx_read",
+	"nameOnDisk" : "libktx_readd.a",
+	"paths" : 
+	{
+		"build" : "extern/KTX-Software",
+		"source" : "extern/KTX-Software"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				11,
+				12,
+				17,
+				18,
+				23,
+				24,
+				28,
+				29,
+				30,
+				33,
+				35,
+				39,
+				41,
+				42,
+				43,
+				45,
+				48,
+				52,
+				53,
+				55
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				2,
+				10,
+				13,
+				14,
+				15,
+				16,
+				19,
+				20,
+				21,
+				22,
+				25,
+				26,
+				27,
+				31,
+				32,
+				34,
+				36,
+				37,
+				38,
+				40,
+				44,
+				46,
+				47,
+				49,
+				50,
+				51,
+				54,
+				56
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/include/ktx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/basis_sgd.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "extern/KTX-Software/lib/basis_transcode.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/basisu/transcoder/basisu_containers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/basisu/transcoder/basisu_containers_impl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/basisu/transcoder/basisu_file_headers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/basisu/transcoder/basisu_global_selector_cb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/basisu/transcoder/basisu_global_selector_palette.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/basisu/transcoder/basisu_transcoder_internal.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/basisu/transcoder/basisu_transcoder_uastc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "extern/KTX-Software/lib/basisu/transcoder/basisu_transcoder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/basisu/transcoder/basisu_transcoder.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/basisu/transcoder/basisu.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/basisu/zstd/zstd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/checkheader.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/dfdutils/createdfd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/dfdutils/colourspaces.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/dfdutils/dfd.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/dfdutils/dfd2vk.inl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/dfdutils/interpretdfd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/dfdutils/printdfd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/dfdutils/queries.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/dfdutils/vk2dfd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/dfdutils/vulkan/vk_platform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/dfdutils/vulkan/vulkan_core.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "extern/KTX-Software/lib/etcdec.cxx",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "extern/KTX-Software/lib/etcunpack.cxx",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/filestream.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/filestream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/formatsize.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/gl_format.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/hashlist.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/info.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/ktxint.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/memstream.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/memstream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/strings.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/swap.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/texture.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/texture.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/texture2.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/texture2.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/uthash.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/vk_format.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/vkformat_check.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/vkformat_enum.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/vkformat_str.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/gl_funcs.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "extern/KTX-Software/lib/gl_funcs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/glloader.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 18,
+			"path" : "extern/KTX-Software/lib/internalexport.def",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/texture1.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "extern/KTX-Software/lib/texture1.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"path" : "extern/KTX-Software/include/ktxvulkan.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/vk_funcs.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"path" : "extern/KTX-Software/lib/vk_funcs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 2,
+			"path" : "extern/KTX-Software/lib/vkloader.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

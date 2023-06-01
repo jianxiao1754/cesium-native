@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/CesiumGeometry.dir/src/Availability.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/Availability.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/BoundingSphere.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/BoundingSphere.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/CullingVolume.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/CullingVolume.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/IntersectionTests.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/IntersectionTests.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/OctreeAvailability.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/OctreeAvailability.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/OctreeTilingScheme.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/OctreeTilingScheme.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/OrientedBoundingBox.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/OrientedBoundingBox.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/Plane.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/Plane.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/QuadtreeAvailability.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/QuadtreeAvailability.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/QuadtreeRectangleAvailability.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/QuadtreeRectangleAvailability.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/QuadtreeTileID.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/QuadtreeTileID.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/QuadtreeTilingScheme.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/QuadtreeTilingScheme.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/Ray.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/Ray.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/Rectangle.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/Rectangle.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/Transforms.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/Transforms.cpp.obj.d"
+  "CMakeFiles/CesiumGeometry.dir/src/clipTriangleAtAxisAlignedThreshold.cpp.obj"
+  "CMakeFiles/CesiumGeometry.dir/src/clipTriangleAtAxisAlignedThreshold.cpp.obj.d"
+  "libCesiumGeometryd.a"
+  "libCesiumGeometryd.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/CesiumGeometry.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

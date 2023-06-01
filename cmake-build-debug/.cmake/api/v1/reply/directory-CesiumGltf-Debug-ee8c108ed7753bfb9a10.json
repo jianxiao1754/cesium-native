@@ -1,0 +1,154 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CesiumGltf/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"CesiumGltf/libCesiumGltfd.a"
+			],
+			"targetId" : "CesiumGltf::@81d30fbd1740eb30874c",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CesiumGltf",
+			"paths" : 
+			[
+				"CesiumGltf/generated/include/CesiumGltf/AccessorSparse.h",
+				"CesiumGltf/generated/include/CesiumGltf/AccessorSparseIndices.h",
+				"CesiumGltf/generated/include/CesiumGltf/AccessorSparseValues.h",
+				"CesiumGltf/generated/include/CesiumGltf/AccessorSpec.h",
+				"CesiumGltf/generated/include/CesiumGltf/Animation.h",
+				"CesiumGltf/generated/include/CesiumGltf/AnimationChannel.h",
+				"CesiumGltf/generated/include/CesiumGltf/AnimationChannelTarget.h",
+				"CesiumGltf/generated/include/CesiumGltf/AnimationSampler.h",
+				"CesiumGltf/generated/include/CesiumGltf/Asset.h",
+				"CesiumGltf/generated/include/CesiumGltf/BufferSpec.h",
+				"CesiumGltf/generated/include/CesiumGltf/BufferView.h",
+				"CesiumGltf/generated/include/CesiumGltf/Camera.h",
+				"CesiumGltf/generated/include/CesiumGltf/CameraOrthographic.h",
+				"CesiumGltf/generated/include/CesiumGltf/CameraPerspective.h",
+				"CesiumGltf/generated/include/CesiumGltf/Class.h",
+				"CesiumGltf/generated/include/CesiumGltf/ClassProperty.h",
+				"CesiumGltf/generated/include/CesiumGltf/ClassStatistics.h",
+				"CesiumGltf/generated/include/CesiumGltf/Enum.h",
+				"CesiumGltf/generated/include/CesiumGltf/EnumValue.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionBufferExtMeshoptCompression.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionBufferViewExtMeshoptCompression.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionCesiumRTC.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionCesiumTileEdges.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtInstanceFeatures.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtInstanceFeaturesFeatureId.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtMeshFeatures.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtMeshFeaturesFeatureId.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtMeshFeaturesFeatureIdTexture.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtMeshGpuInstancing.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataClass.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataClassProperty.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataEnum.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataEnumValue.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataPropertyAttribute.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataPropertyAttributeProperty.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataPropertyTable.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataPropertyTableProperty.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataPropertyTexture.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataPropertyTextureProperty.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataSchema.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionKhrDracoMeshCompression.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionKhrMaterialsUnlit.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionKhrTextureBasisu.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionKhrTextureTransform.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionMeshPrimitiveExtFeatureMetadata.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionMeshPrimitiveExtStructuralMetadata.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionMeshPrimitiveKhrMaterialsVariants.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionMeshPrimitiveKhrMaterialsVariantsMappingsValue.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionModelExtFeatureMetadata.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionModelExtStructuralMetadata.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionModelKhrMaterialsVariants.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionModelKhrMaterialsVariantsValue.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionModelMaxarMeshVariants.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionModelMaxarMeshVariantsValue.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionNodeMaxarMeshVariants.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionNodeMaxarMeshVariantsMappingsValue.h",
+				"CesiumGltf/generated/include/CesiumGltf/ExtensionTextureWebp.h",
+				"CesiumGltf/generated/include/CesiumGltf/FeatureIDAttribute.h",
+				"CesiumGltf/generated/include/CesiumGltf/FeatureIDTexture.h",
+				"CesiumGltf/generated/include/CesiumGltf/FeatureIDs.h",
+				"CesiumGltf/generated/include/CesiumGltf/FeatureTable.h",
+				"CesiumGltf/generated/include/CesiumGltf/FeatureTableProperty.h",
+				"CesiumGltf/generated/include/CesiumGltf/FeatureTexture.h",
+				"CesiumGltf/generated/include/CesiumGltf/ImageSpec.h",
+				"CesiumGltf/generated/include/CesiumGltf/Material.h",
+				"CesiumGltf/generated/include/CesiumGltf/MaterialNormalTextureInfo.h",
+				"CesiumGltf/generated/include/CesiumGltf/MaterialOcclusionTextureInfo.h",
+				"CesiumGltf/generated/include/CesiumGltf/MaterialPBRMetallicRoughness.h",
+				"CesiumGltf/generated/include/CesiumGltf/Mesh.h",
+				"CesiumGltf/generated/include/CesiumGltf/MeshPrimitive.h",
+				"CesiumGltf/generated/include/CesiumGltf/ModelSpec.h",
+				"CesiumGltf/generated/include/CesiumGltf/Node.h",
+				"CesiumGltf/generated/include/CesiumGltf/PropertyStatistics.h",
+				"CesiumGltf/generated/include/CesiumGltf/Sampler.h",
+				"CesiumGltf/generated/include/CesiumGltf/Scene.h",
+				"CesiumGltf/generated/include/CesiumGltf/Schema.h",
+				"CesiumGltf/generated/include/CesiumGltf/Skin.h",
+				"CesiumGltf/generated/include/CesiumGltf/Statistics.h",
+				"CesiumGltf/generated/include/CesiumGltf/Texture.h",
+				"CesiumGltf/generated/include/CesiumGltf/TextureAccessor.h",
+				"CesiumGltf/generated/include/CesiumGltf/TextureInfo.h",
+				"CesiumGltf/include/CesiumGltf/Accessor.h",
+				"CesiumGltf/include/CesiumGltf/AccessorView.h",
+				"CesiumGltf/include/CesiumGltf/AccessorWriter.h",
+				"CesiumGltf/include/CesiumGltf/Buffer.h",
+				"CesiumGltf/include/CesiumGltf/BufferCesium.h",
+				"CesiumGltf/include/CesiumGltf/FeatureIDTextureView.h",
+				"CesiumGltf/include/CesiumGltf/FeatureTexturePropertyView.h",
+				"CesiumGltf/include/CesiumGltf/FeatureTextureView.h",
+				"CesiumGltf/include/CesiumGltf/Image.h",
+				"CesiumGltf/include/CesiumGltf/ImageCesium.h",
+				"CesiumGltf/include/CesiumGltf/Ktx2TranscodeTargets.h",
+				"CesiumGltf/include/CesiumGltf/Library.h",
+				"CesiumGltf/include/CesiumGltf/MetadataArrayView.h",
+				"CesiumGltf/include/CesiumGltf/MetadataFeatureTableView.h",
+				"CesiumGltf/include/CesiumGltf/MetadataPropertyView.h",
+				"CesiumGltf/include/CesiumGltf/Model.h",
+				"CesiumGltf/include/CesiumGltf/NamedObject.h",
+				"CesiumGltf/include/CesiumGltf/PropertyType.h",
+				"CesiumGltf/include/CesiumGltf/PropertyTypeTraits.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CesiumGltf",
+		"source" : "CesiumGltf"
+	}
+}

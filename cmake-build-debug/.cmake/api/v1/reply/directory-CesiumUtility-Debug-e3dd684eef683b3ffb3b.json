@@ -1,0 +1,68 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CesiumUtility/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"CesiumUtility/libCesiumUtilityd.a"
+			],
+			"targetId" : "CesiumUtility::@cd397541a3743d204776",
+			"targetIndex" : 14,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CesiumUtility",
+			"paths" : 
+			[
+				"CesiumUtility/include/CesiumUtility/AttributeCompression.h",
+				"CesiumUtility/include/CesiumUtility/DoublyLinkedList.h",
+				"CesiumUtility/include/CesiumUtility/ExtensibleObject.h",
+				"CesiumUtility/include/CesiumUtility/IntrusivePointer.h",
+				"CesiumUtility/include/CesiumUtility/JsonHelpers.h",
+				"CesiumUtility/include/CesiumUtility/JsonValue.h",
+				"CesiumUtility/include/CesiumUtility/Library.h",
+				"CesiumUtility/include/CesiumUtility/Math.h",
+				"CesiumUtility/include/CesiumUtility/ReferenceCountedNonThreadSafe.h",
+				"CesiumUtility/include/CesiumUtility/ScopeGuard.h",
+				"CesiumUtility/include/CesiumUtility/SpanHelper.h",
+				"CesiumUtility/include/CesiumUtility/Tracing.h",
+				"CesiumUtility/include/CesiumUtility/Uri.h",
+				"CesiumUtility/include/CesiumUtility/joinToString.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CesiumUtility",
+		"source" : "CesiumUtility"
+	}
+}

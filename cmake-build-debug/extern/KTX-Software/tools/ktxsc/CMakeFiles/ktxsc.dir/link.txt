@@ -1,0 +1,3 @@
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\ktxsc.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\ktxsc.dir/objects.a @CMakeFiles\ktxsc.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\g++.exe -g -g -Wl,--whole-archive CMakeFiles\ktxsc.dir/objects.a -Wl,--no-whole-archive -o ..\..\..\..\Debug\ktxsc.exe -Wl,--out-implib,libktxsc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ktxsc.dir\linklibs.rsp

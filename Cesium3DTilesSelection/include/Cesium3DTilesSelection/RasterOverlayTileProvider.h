@@ -112,6 +112,11 @@ struct LoadTileImageFromUrlOptions {
    * not available.
    */
   bool allowEmptyImages = false;
+
+  bool hasTileID=false;
+  uint32_t level;
+  uint32_t x;
+  uint32_t y;
 };
 
 /**

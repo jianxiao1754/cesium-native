@@ -1,0 +1,71 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CesiumJsonReader/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"CesiumJsonReader/libCesiumJsonReaderd.a"
+			],
+			"targetId" : "CesiumJsonReader::@d8333e423b833087cc2c",
+			"targetIndex" : 12,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CesiumJsonReader",
+			"paths" : 
+			[
+				"CesiumJsonReader/include/CesiumJsonReader/ArrayJsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/BoolJsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/DictionaryJsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/DoubleJsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/ExtensibleObjectJsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/ExtensionReaderContext.h",
+				"CesiumJsonReader/include/CesiumJsonReader/ExtensionsJsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/IExtensionJsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/IJsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/IgnoreValueJsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/IntegerJsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/JsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/JsonObjectJsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/JsonReader.h",
+				"CesiumJsonReader/include/CesiumJsonReader/Library.h",
+				"CesiumJsonReader/include/CesiumJsonReader/ObjectJsonHandler.h",
+				"CesiumJsonReader/include/CesiumJsonReader/StringJsonHandler.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CesiumJsonReader",
+		"source" : "CesiumJsonReader"
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Cesium3DTiles/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Cesium3DTiles/libCesium3DTilesd.a"
+			],
+			"targetId" : "Cesium3DTiles::@1bf52e55af593dad9139",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/Cesium3DTiles",
+			"paths" : 
+			[
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Asset.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Availability.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/BoundingVolume.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Buffer.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/BufferView.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Class.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/ClassProperty.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/ClassStatistics.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Content.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Enum.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/EnumValue.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Extension3dTilesBoundingVolumeS2.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/GroupMetadata.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/ImplicitTiling.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/MetadataEntity.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Properties.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/PropertyStatistics.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/PropertyTable.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/PropertyTableProperty.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Schema.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Statistics.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Subtree.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Subtrees.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Tile.h",
+				"Cesium3DTiles/generated/include/Cesium3DTiles/Tileset.h",
+				"Cesium3DTiles/include/Cesium3DTiles/Library.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Cesium3DTiles",
+		"source" : "Cesium3DTiles"
+	}
+}

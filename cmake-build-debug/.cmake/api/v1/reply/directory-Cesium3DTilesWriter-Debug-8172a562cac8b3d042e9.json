@@ -1,0 +1,58 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Cesium3DTilesWriter/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Cesium3DTilesWriter/libCesium3DTilesWriterd.a"
+			],
+			"targetId" : "Cesium3DTilesWriter::@1ac42394623aae25d68a",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/Cesium3DTilesWriter",
+			"paths" : 
+			[
+				"Cesium3DTilesWriter/include/Cesium3DTilesWriter/Library.h",
+				"Cesium3DTilesWriter/include/Cesium3DTilesWriter/SchemaWriter.h",
+				"Cesium3DTilesWriter/include/Cesium3DTilesWriter/SubtreeWriter.h",
+				"Cesium3DTilesWriter/include/Cesium3DTilesWriter/TilesetWriter.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Cesium3DTilesWriter",
+		"source" : "Cesium3DTilesWriter"
+	}
+}

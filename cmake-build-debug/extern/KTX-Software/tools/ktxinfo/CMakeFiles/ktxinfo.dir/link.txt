@@ -1,0 +1,3 @@
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\ktxinfo.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\ktxinfo.dir/objects.a @CMakeFiles\ktxinfo.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\g++.exe -g -g -Wl,--whole-archive CMakeFiles\ktxinfo.dir/objects.a -Wl,--no-whole-archive -o ..\..\..\..\Debug\ktxinfo.exe -Wl,--out-implib,libktxinfo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ktxinfo.dir\linklibs.rsp

@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libobjUtild.a CMakeFiles/objUtil.dir/utils/argparser.cpp.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libobjUtild.a

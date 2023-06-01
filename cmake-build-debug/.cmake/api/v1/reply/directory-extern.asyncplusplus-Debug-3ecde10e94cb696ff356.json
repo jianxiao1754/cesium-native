@@ -1,0 +1,131 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/asyncplusplus/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 159,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"paths" : 
+			[
+				"cmake-build-debug/extern/asyncplusplus/Async++Config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/asyncplusplus/libasync++d.a"
+			],
+			"targetId" : "Async++::@be6564aa5c64527e2a11",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "cmake",
+			"exportName" : "Async++",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Async++::@be6564aa5c64527e2a11",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"extern/asyncplusplus/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/Async++.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"extern/asyncplusplus/include/async++.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/async++",
+			"paths" : 
+			[
+				"extern/asyncplusplus/include/async++/aligned_alloc.h",
+				"extern/asyncplusplus/include/async++/cancel.h",
+				"extern/asyncplusplus/include/async++/continuation_vector.h",
+				"extern/asyncplusplus/include/async++/parallel_for.h",
+				"extern/asyncplusplus/include/async++/parallel_invoke.h",
+				"extern/asyncplusplus/include/async++/parallel_reduce.h",
+				"extern/asyncplusplus/include/async++/partitioner.h",
+				"extern/asyncplusplus/include/async++/range.h",
+				"extern/asyncplusplus/include/async++/ref_count.h",
+				"extern/asyncplusplus/include/async++/scheduler.h",
+				"extern/asyncplusplus/include/async++/scheduler_fwd.h",
+				"extern/asyncplusplus/include/async++/task.h",
+				"extern/asyncplusplus/include/async++/task_base.h",
+				"extern/asyncplusplus/include/async++/traits.h",
+				"extern/asyncplusplus/include/async++/when_all_any.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/asyncplusplus",
+		"source" : "extern/asyncplusplus"
+	}
+}

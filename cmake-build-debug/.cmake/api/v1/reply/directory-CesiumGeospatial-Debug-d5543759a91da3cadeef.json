@@ -1,0 +1,71 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CesiumGeospatial/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"CesiumGeospatial/libCesiumGeospatiald.a"
+			],
+			"targetId" : "CesiumGeospatial::@3275fa26bcaf74fc59b6",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CesiumGeospatial",
+			"paths" : 
+			[
+				"CesiumGeospatial/include/CesiumGeospatial/BoundingRegion.h",
+				"CesiumGeospatial/include/CesiumGeospatial/BoundingRegionBuilder.h",
+				"CesiumGeospatial/include/CesiumGeospatial/BoundingRegionWithLooseFittingHeights.h",
+				"CesiumGeospatial/include/CesiumGeospatial/Cartographic.h",
+				"CesiumGeospatial/include/CesiumGeospatial/CartographicPolygon.h",
+				"CesiumGeospatial/include/CesiumGeospatial/Ellipsoid.h",
+				"CesiumGeospatial/include/CesiumGeospatial/EllipsoidTangentPlane.h",
+				"CesiumGeospatial/include/CesiumGeospatial/GeographicProjection.h",
+				"CesiumGeospatial/include/CesiumGeospatial/GlobeAnchor.h",
+				"CesiumGeospatial/include/CesiumGeospatial/GlobeRectangle.h",
+				"CesiumGeospatial/include/CesiumGeospatial/GlobeTransforms.h",
+				"CesiumGeospatial/include/CesiumGeospatial/Library.h",
+				"CesiumGeospatial/include/CesiumGeospatial/LocalHorizontalCoordinateSystem.h",
+				"CesiumGeospatial/include/CesiumGeospatial/Projection.h",
+				"CesiumGeospatial/include/CesiumGeospatial/S2CellBoundingVolume.h",
+				"CesiumGeospatial/include/CesiumGeospatial/S2CellID.h",
+				"CesiumGeospatial/include/CesiumGeospatial/WebMercatorProjection.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CesiumGeospatial",
+		"source" : "CesiumGeospatial"
+	}
+}

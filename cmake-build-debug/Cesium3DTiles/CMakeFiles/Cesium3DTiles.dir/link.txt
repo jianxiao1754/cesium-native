@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libCesium3DTilesd.a CMakeFiles/Cesium3DTiles.dir/src/Library.cpp.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libCesium3DTilesd.a

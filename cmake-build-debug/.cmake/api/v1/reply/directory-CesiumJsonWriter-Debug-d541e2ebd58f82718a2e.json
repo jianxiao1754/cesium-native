@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CesiumJsonWriter/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"CesiumJsonWriter/libCesiumJsonWriterd.a"
+			],
+			"targetId" : "CesiumJsonWriter::@4ffe821727ce508bf476",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CesiumJsonWriter",
+			"paths" : 
+			[
+				"CesiumJsonWriter/include/CesiumJsonWriter/ExtensionWriterContext.h",
+				"CesiumJsonWriter/include/CesiumJsonWriter/JsonObjectWriter.h",
+				"CesiumJsonWriter/include/CesiumJsonWriter/JsonWriter.h",
+				"CesiumJsonWriter/include/CesiumJsonWriter/Library.h",
+				"CesiumJsonWriter/include/CesiumJsonWriter/PrettyJsonWriter.h",
+				"CesiumJsonWriter/include/CesiumJsonWriter/writeJsonExtensions.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CesiumJsonWriter",
+		"source" : "CesiumJsonWriter"
+	}
+}

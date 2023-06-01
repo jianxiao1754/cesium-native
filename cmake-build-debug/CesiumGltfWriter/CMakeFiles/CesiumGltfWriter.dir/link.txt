@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libCesiumGltfWriterd.a CMakeFiles/CesiumGltfWriter.dir/generated/src/ModelJsonWriter.cpp.obj CMakeFiles/CesiumGltfWriter.dir/generated/src/registerExtensions.cpp.obj CMakeFiles/CesiumGltfWriter.dir/src/GltfWriter.cpp.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libCesiumGltfWriterd.a

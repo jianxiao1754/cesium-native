@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CesiumIonClient/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"CesiumIonClient/libCesiumIonClientd.a"
+			],
+			"targetId" : "CesiumIonClient::@50f240ae10066cd9d7f6",
+			"targetIndex" : 11,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CesiumIonClient",
+			"paths" : 
+			[
+				"CesiumIonClient/include/CesiumIonClient/Assets.h",
+				"CesiumIonClient/include/CesiumIonClient/Connection.h",
+				"CesiumIonClient/include/CesiumIonClient/Profile.h",
+				"CesiumIonClient/include/CesiumIonClient/Response.h",
+				"CesiumIonClient/include/CesiumIonClient/Token.h",
+				"CesiumIonClient/include/CesiumIonClient/TokenList.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CesiumIonClient",
+		"source" : "CesiumIonClient"
+	}
+}

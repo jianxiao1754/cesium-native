@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libCesiumUtilityd.a CMakeFiles/CesiumUtility.dir/src/ExtensibleObject.cpp.obj CMakeFiles/CesiumUtility.dir/src/JsonHelpers.cpp.obj CMakeFiles/CesiumUtility.dir/src/JsonValue.cpp.obj CMakeFiles/CesiumUtility.dir/src/Tracing.cpp.obj CMakeFiles/CesiumUtility.dir/src/Uri.cpp.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libCesiumUtilityd.a

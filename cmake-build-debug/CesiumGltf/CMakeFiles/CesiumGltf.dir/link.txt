@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libCesiumGltfd.a CMakeFiles/CesiumGltf.dir/src/Accessor.cpp.obj CMakeFiles/CesiumGltf.dir/src/FeatureIDTextureView.cpp.obj CMakeFiles/CesiumGltf.dir/src/FeatureTexturePropertyView.cpp.obj CMakeFiles/CesiumGltf.dir/src/FeatureTextureView.cpp.obj CMakeFiles/CesiumGltf.dir/src/Ktx2TranscodeTargets.cpp.obj CMakeFiles/CesiumGltf.dir/src/MetadataFeatureTableView.cpp.obj CMakeFiles/CesiumGltf.dir/src/Model.cpp.obj CMakeFiles/CesiumGltf.dir/src/PropertyType.cpp.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libCesiumGltfd.a

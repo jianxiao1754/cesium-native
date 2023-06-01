@@ -1,0 +1,87 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/expected-lite/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/expected-lite",
+			"exportName" : "expected-lite-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "expected-lite::@518f237ca3060b676766",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"extern/expected-lite/CMakeFiles/Export/9cc3be8e9cda0f9150fc8c940d7795e9/expected-lite-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/expected-lite",
+			"paths" : 
+			[
+				"cmake-build-debug/extern/expected-lite/expected-lite-config.cmake",
+				"cmake-build-debug/extern/expected-lite/expected-lite-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "extern/expected-lite/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/expected-lite",
+		"source" : "extern/expected-lite"
+	}
+}

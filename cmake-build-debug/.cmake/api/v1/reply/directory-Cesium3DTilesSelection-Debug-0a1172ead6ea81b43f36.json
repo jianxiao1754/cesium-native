@@ -1,0 +1,95 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Cesium3DTilesSelection/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Cesium3DTilesSelection/libCesium3DTilesSelectiond.a"
+			],
+			"targetId" : "Cesium3DTilesSelection::@780c3355b4914d486b8a",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/Cesium3DTilesSelection",
+			"paths" : 
+			[
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/BingMapsRasterOverlay.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/BoundingVolume.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/CreditSystem.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/DebugColorizeTilesRasterOverlay.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/ErrorList.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/GltfConverterResult.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/GltfConverters.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/GltfUtilities.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/IPrepareRendererResources.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/ITileExcluder.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/IonRasterOverlay.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/Library.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/QuadtreeRasterOverlayTileProvider.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterMappedTo3DTile.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterOverlay.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterOverlayCollection.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterOverlayDetails.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterOverlayLoadFailureDetails.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterOverlayTile.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterOverlayTileProvider.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterizedPolygonsOverlay.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterizedPolygonsTileExcluder.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/Tile.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileContent.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileID.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileLoadResult.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileMapServiceRasterOverlay.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileOcclusionRendererProxy.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileRefine.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileSelectionState.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/Tileset.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/TilesetContentLoader.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/TilesetExternals.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/TilesetLoadFailureDetails.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/TilesetOptions.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/ViewState.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/ViewUpdateResult.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/WebMapServiceRasterOverlay.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/registerAllTileContentTypes.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/spdlog-cesium.h",
+				"Cesium3DTilesSelection/include/Cesium3DTilesSelection/tinyxml-cesium.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Cesium3DTilesSelection",
+		"source" : "Cesium3DTilesSelection"
+	}
+}

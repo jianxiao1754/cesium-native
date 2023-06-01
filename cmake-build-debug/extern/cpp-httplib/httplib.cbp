@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="httplib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\extern\;CMake Files\extern\asyncplusplus\;CMake Files\extern\Catch2\;CMake Files\extern\Catch2\contrib\;CMake Files\extern\GSL\;CMake Files\extern\GSL\cmake\;CMake Files\extern\GSL\include\;CMake Files\extern\KTX-Software\;CMake Files\extern\KTX-Software\cmake\;CMake Files\extern\KTX-Software\cmake\modules\;CMake Files\extern\KTX-Software\interface\;CMake Files\extern\KTX-Software\interface\basisu_c_binding\;CMake Files\extern\KTX-Software\lib\;CMake Files\extern\KTX-Software\lib\astc-encoder\;CMake Files\extern\KTX-Software\lib\astc-encoder\Source\;CMake Files\extern\KTX-Software\tools\;CMake Files\extern\KTX-Software\tools\ktx2check\;CMake Files\extern\KTX-Software\tools\ktx2ktx2\;CMake Files\extern\KTX-Software\tools\ktxinfo\;CMake Files\extern\KTX-Software\tools\ktxsc\;CMake Files\extern\KTX-Software\tools\toktx\;CMake Files\extern\KTX-Software\tests\;CMake Files\extern\cmake-modules\;CMake Files\extern\libwebp\;CMake Files\extern\libwebp\cmake\;CMake Files\extern\libwebp\src\;CMake Files\extern\libwebp\src\demux\;CMake Files\extern\uriparser\;CMake Files\extern\uriparser\src\;CMake Files\extern\uriparser\cmake\;CMake Files\extern\draco\;CMake Files\extern\draco\cmake\;CMake Files\extern\glm\;CMake Files\extern\glm\glm\;CMake Files\extern\spdlog\;CMake Files\extern\spdlog\cmake\;CMake Files\extern\sqlite3\;CMake Files\extern\modp_b64\;CMake Files\extern\expected-lite\;CMake Files\extern\expected-lite\cmake\;CMake Files\extern\cpp-httplib\;CMake Files\extern\libmorton\;CMake Files\extern\libmorton\data\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\extern\;CMake Files\cmake-build-debug\extern\libjpeg-turbo\;CMake Files\cmake-build-debug\extern\libjpeg-turbo\tmp\;CMake Files\CesiumUtility\;CMake Files\CesiumGltf\;CMake Files\CesiumGeometry\;CMake Files\CesiumGeospatial\;CMake Files\CesiumJsonReader\;CMake Files\CesiumJsonWriter\;CMake Files\CesiumGltfReader\;CMake Files\CesiumGltfWriter\;CMake Files\CesiumAsync\;CMake Files\Cesium3DTiles\;CMake Files\Cesium3DTilesReader\;CMake Files\Cesium3DTilesWriter\;CMake Files\Cesium3DTilesSelection\;CMake Files\CesiumIonClient\;CMake Files\CesiumNativeTests\;CMake Files\doc\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/cpp-httplib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/cpp-httplib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/cpp-httplib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/cpp-httplib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/devkits/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/cpp-httplib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/asyncplusplus/Async++Config.cmake.in">
+			<Option virtualFolder="CMake Files\extern\asyncplusplus\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/asyncplusplus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\asyncplusplus\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/Catch2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\Catch2\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/Catch2/contrib/Catch.cmake">
+			<Option virtualFolder="CMake Files\extern\Catch2\contrib\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/GSL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\GSL\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/GSL/cmake/guidelineSupportLibrary.cmake">
+			<Option virtualFolder="CMake Files\extern\GSL\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/GSL/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\GSL\include\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/cmake/cputypetest.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/cmake/jni.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/cmake/mkvk.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/cmake/version.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/cmake/xcode.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/cmake/modules/FindBash.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\cmake\modules\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/interface/basisu_c_binding/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\interface\basisu_c_binding\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\lib\astc-encoder\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\lib\astc-encoder\Source\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/lib/astc-encoder/Source/cmake_core.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\lib\astc-encoder\Source\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tools\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2check/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tools\ktx2check\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktx2ktx2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tools\ktx2ktx2\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxinfo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tools\ktxinfo\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/ktxsc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tools\ktxsc\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tools/toktx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tools\toktx\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tests\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tests/ktx2check-tests.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tests\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/KTX-Software/tests/toktx-tests.cmake">
+			<Option virtualFolder="CMake Files\extern\KTX-Software\tests\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/cmake-modules/GetGitRevisionDescription.cmake">
+			<Option virtualFolder="CMake Files\extern\cmake-modules\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\libwebp\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/WebPConfig.cmake.in">
+			<Option virtualFolder="CMake Files\extern\libwebp\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/config.h.in">
+			<Option virtualFolder="CMake Files\extern\libwebp\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/cpu.cmake">
+			<Option virtualFolder="CMake Files\extern\libwebp\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/cmake/deps.cmake">
+			<Option virtualFolder="CMake Files\extern\libwebp\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/src/libwebp.pc.in">
+			<Option virtualFolder="CMake Files\extern\libwebp\src\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/src/libwebpdecoder.pc.in">
+			<Option virtualFolder="CMake Files\extern\libwebp\src\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libwebp/src/demux/libwebpdemux.pc.in">
+			<Option virtualFolder="CMake Files\extern\libwebp\src\demux\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/uriparser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\uriparser\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/uriparser/liburiparser.pc.in">
+			<Option virtualFolder="CMake Files\extern\uriparser\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/uriparser/src/UriConfig.h.in">
+			<Option virtualFolder="CMake Files\extern\uriparser\src\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/uriparser/cmake/uriparser-config.cmake.in">
+			<Option virtualFolder="CMake Files\extern\uriparser\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\draco\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco-config.cmake.template">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco.pc.template">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_build_definitions.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_cpu_detection.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_dependencies.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_emscripten.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_flags.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_helpers.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_install.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_intrinsics.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_options.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_sanitizer.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_targets.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_tests.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/cmake/draco_variables.cmake">
+			<Option virtualFolder="CMake Files\extern\draco\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\glm\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\glm\glm\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/spdlog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\spdlog\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/spdlog/cmake/ide.cmake">
+			<Option virtualFolder="CMake Files\extern\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/spdlog/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\extern\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/sqlite3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\sqlite3\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/sqlite3/cesium-sqlite3.h">
+			<Option virtualFolder="CMake Files\extern\sqlite3\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/modp_b64/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\modp_b64\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/expected-lite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\expected-lite\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/expected-lite/cmake/expected-lite-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\extern\expected-lite\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/expected-lite/cmake/expected-lite-config.cmake.in">
+			<Option virtualFolder="CMake Files\extern\expected-lite\cmake\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/cpp-httplib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\cpp-httplib\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/cpp-httplib/httplibConfig.cmake.in">
+			<Option virtualFolder="CMake Files\extern\cpp-httplib\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libmorton/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\libmorton\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libmorton/data/libmorton.pc.in">
+			<Option virtualFolder="CMake Files\extern\libmorton\data\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libmorton/data/libmortonConfig.cmake.in">
+			<Option virtualFolder="CMake Files\extern\libmorton\data\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug/extern/libjpeg-turbo/tmp/libjpeg-turbo-mkdirs.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\extern\libjpeg-turbo\tmp\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumUtility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumUtility\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumGltf\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGeometry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumGeometry\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGeospatial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumGeospatial\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumJsonReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumJsonReader\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumJsonWriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumJsonWriter\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumGltfReader\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfWriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumGltfWriter\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumAsync/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumAsync\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTiles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Cesium3DTiles\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesReader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Cesium3DTilesReader\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesWriter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Cesium3DTilesWriter\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesSelection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Cesium3DTilesSelection\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumIonClient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumIonClient\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumNativeTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CesiumNativeTests\"/>
+		</Unit>
+		<Unit filename="D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

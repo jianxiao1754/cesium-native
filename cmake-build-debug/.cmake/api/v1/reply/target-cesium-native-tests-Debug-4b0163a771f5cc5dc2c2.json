@@ -1,0 +1,3098 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CesiumNativeTests/cesium-native-tests.exe"
+		},
+		{
+			"path" : "CesiumNativeTests/cesium-native-tests.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_dependencies",
+			"target_compile_options",
+			"configure_cesium_library",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CesiumNativeTests/CMakeLists.txt",
+			"Cesium3DTilesReader/CMakeLists.txt",
+			"CesiumGeospatial/CMakeLists.txt",
+			"CesiumGltfReader/CMakeLists.txt",
+			"extern/libwebp/CMakeLists.txt",
+			"Cesium3DTilesSelection/CMakeLists.txt",
+			"Cesium3DTilesWriter/CMakeLists.txt",
+			"CesiumAsync/CMakeLists.txt",
+			"CesiumIonClient/CMakeLists.txt",
+			"extern/cpp-httplib/CMakeLists.txt",
+			"extern/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 37,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 57,
+				"parent" : 7
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 320,
+				"parent" : 9
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 44,
+				"parent" : 11
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 54,
+				"parent" : 13
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 40,
+				"parent" : 15
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 37,
+				"parent" : 17
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 206,
+				"parent" : 19
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 10,
+				"line" : 190,
+				"parent" : 21
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 87,
+				"parent" : 23
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 11,
+				"line" : 96,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 25,
+					"define" : "Cesium3DTilesReader_TEST_DATA_DIR=\"D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesReader/test/data\""
+				},
+				{
+					"backtrace" : 26,
+					"define" : "Cesium3DTilesSelection_TEST_DATA_DIR=\"D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesSelection/test/data\""
+				},
+				{
+					"backtrace" : 27,
+					"define" : "Cesium3DTilesWriter_TEST_DATA_DIR=\"D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesWriter/test/data\""
+				},
+				{
+					"backtrace" : 28,
+					"define" : "CesiumGltfReader_TEST_DATA_DIR=\"D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfReader/test/data\""
+				},
+				{
+					"backtrace" : 29,
+					"define" : "GLM_FORCE_EXPLICIT_CTOR"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "GLM_FORCE_SIZE_T_LENGTH"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "GLM_FORCE_XYZW_ONLY"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIBASYNC_STATIC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "URI_STATIC_BUILD"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesReader/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesReader/generated/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesWriter/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesWriter/generated/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesSelection/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumAsync/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltf/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltf/generated/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/stb"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfReader/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfReader/generated/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfWriter/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfWriter/generated/src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/cpp-httplib"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumUtility/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/asyncplusplus/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/tinyxml2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/expected-lite/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/Catch2/single_include"
+				},
+				{
+					"backtrace" : 30,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/rapidjson/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesReader/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesReader/generated/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTiles/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTiles/generated/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumUtility/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/glm/glm/.."
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/uriparser/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/GSL/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/cmake-build-debug"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumJsonReader/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesWriter/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesWriter/generated/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumJsonWriter/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/draco/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/libmorton/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/Cesium3DTilesSelection/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumAsync/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/spdlog/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGeospatial/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGeometry/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/earcut/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltf/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltf/generated/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfReader/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfReader/generated/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/extern/modp_b64"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfWriter/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumGltfWriter/generated/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/projects/TestCesium/Plugins/CesiumForUnreal/extern/cesium-native/CesiumIonClient/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				69
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "tinyxml2::@4b650f177ba80d6d5e76"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "csprng::@4b650f177ba80d6d5e76"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "libjpeg-turbo::@4b650f177ba80d6d5e76"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "s2geometry::@4b650f177ba80d6d5e76"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ktx_read::@1f45bfcee8b52cae0b90"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "webpdecoder::@a0bd244d559eed9a0c1d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "webp::@a0bd244d559eed9a0c1d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "uriparser::@02988cca979bc22941f2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "draco_static::@d4298ebd35d74cac9a3f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Async++::@be6564aa5c64527e2a11"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@2be8bbbfd43a5375bf0e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sqlite3::@cf3f1bccc66fd96c99a5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "modp_b64::@cef9afe0cfc566fe3f5d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CesiumUtility::@cd397541a3743d204776"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CesiumGltf::@81d30fbd1740eb30874c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CesiumGeometry::@f35d40b38ac61c57330a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CesiumGeospatial::@3275fa26bcaf74fc59b6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CesiumGltfReader::@6bba41147e8c479a4854"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CesiumJsonReader::@d8333e423b833087cc2c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CesiumJsonWriter::@4ffe821727ce508bf476"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CesiumAsync::@c3b046953ef8748376be"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CesiumGltfWriter::@643b982e43988849ba7c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Cesium3DTilesReader::@031f4c2c5a677a1bb983"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Cesium3DTiles::@1bf52e55af593dad9139"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Cesium3DTilesWriter::@1ac42394623aae25d68a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Cesium3DTilesSelection::@780c3355b4914d486b8a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "CesiumIonClient::@50f240ae10066cd9d7f6"
+		}
+	],
+	"id" : "cesium-native-tests::@960d69fde730932358cd",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\Cesium3DTilesReader\\libCesium3DTilesReaderd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\Cesium3DTilesWriter\\libCesium3DTilesWriterd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\Cesium3DTilesSelection\\libCesium3DTilesSelectiond.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\CesiumAsync\\libCesiumAsyncd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\CesiumGeometry\\libCesiumGeometryd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\CesiumGeospatial\\libCesiumGeospatiald.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\CesiumGltf\\libCesiumGltfd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\CesiumGltfReader\\libCesiumGltfReaderd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\CesiumGltfWriter\\libCesiumGltfWriterd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\CesiumIonClient\\libCesiumIonClientd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\CesiumUtility\\libCesiumUtilityd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\Cesium3DTiles\\libCesium3DTilesd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\CesiumGeometry\\libCesiumGeometryd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\extern\\libs2geometryd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\CesiumJsonReader\\libCesiumJsonReaderd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "..\\extern\\KTX-Software\\libktx_readd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "..\\extern\\libwebp\\libwebpd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "..\\extern\\libwebp\\libwebpdecoderd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-lshlwapi",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-lole32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-lwindowscodecs",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "..\\extern\\libjpeg-turbo\\lib\\libturbojpegd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "..\\extern\\libtinyxml2d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "..\\extern\\draco\\libdracod.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\CesiumGltf\\libCesiumGltfd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "..\\CesiumJsonWriter\\libCesiumJsonWriterd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\CesiumAsync\\libCesiumAsyncd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "..\\extern\\spdlog\\libspdlogd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "..\\extern\\asyncplusplus\\libasync++d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "..\\extern\\sqlite3\\libsqlite3d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "..\\CesiumUtility\\libCesiumUtilityd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "..\\extern\\uriparser\\liburiparserd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "..\\extern\\modp_b64\\libmodp_b64d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "..\\extern\\libcsprngd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-lcrypt32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-lcryptui",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "cesium-native-tests",
+	"nameOnDisk" : "cesium-native-tests.exe",
+	"paths" : 
+	{
+		"build" : "CesiumNativeTests",
+		"source" : "CesiumNativeTests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				69
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesReader/test/TestTilesetReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesWriter/test/TestTilesetWriter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/MockTilesetContentManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestBoundingVolume.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestCreditSystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestImplicitOctreeLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestImplicitQuadtreeLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestLayerJsonTerrainLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestPntsToGltfConverter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestQuadtreeRasterOverlayTileProvider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestQuantizedMeshContent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestSkirtMeshMetadata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestSubtreeAvailability.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestTilesetContentManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestTilesetJsonLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestTilesetSelectionAlgorithm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestUpgradeBatchTableToExtFeatureMetadata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/TestUpsampleGltfForRasterOverlay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "Cesium3DTilesSelection/test/readFile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumAsync/test/TestAsyncSystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumAsync/test/TestCacheAssetAccessor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumAsync/test/TestDiskCache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumAsync/test/TestInternalTimegm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumAsync/test/TestResponseCacheControl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeometry/test/TestAvailability.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeometry/test/TestAxisAlignedBox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeometry/test/TestBoundingSphere.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeometry/test/TestClipTriangleAtAxisAlignedThreshold.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeometry/test/TestIntersectionTests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeometry/test/TestOrientedBoundingBox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeometry/test/TestPlane.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeometry/test/TestRectangle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeometry/test/TestTransforms.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeospatial/test/TestBoundingRegion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeospatial/test/TestBoundingRegionBuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeospatial/test/TestGlobeAnchor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeospatial/test/TestGlobeRectangle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeospatial/test/TestLocalHorizontalCoordinateSystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeospatial/test/TestProjection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeospatial/test/TestS2CellBoundingVolume.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGeospatial/test/TestS2CellID.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGltf/test/TestAccessorView.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGltf/test/TestJsonValue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGltf/test/TestMetadataFeatureTableView.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGltf/test/TestModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGltf/test/TestPropertyType.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGltf/test/TestPropertyTypeTrait.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGltf/test/TestPropertyView.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGltfReader/test/TestExtensionModelExtFeatureMetadata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGltfReader/test/TestGltfReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGltfReader/test/TestImageManipulation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumGltfWriter/test/TestGltfWriter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumIonClient/test/TestParseLinkHeader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumUtility/test/TestAttributeCompression.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumUtility/test/TestDoublyLinkedList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumUtility/test/TestIntrusivePointer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumUtility/test/TestMath.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumUtility/test/TestScopeGuard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumUtility/test/TestSpanHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 31,
+			"path" : "Cesium3DTilesSelection/test/ConvertTileToGltf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"path" : "Cesium3DTilesSelection/test/MockTilesetContentManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"path" : "Cesium3DTilesSelection/test/SimpleAssetAccessor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"path" : "Cesium3DTilesSelection/test/SimpleAssetRequest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"path" : "Cesium3DTilesSelection/test/SimpleAssetResponse.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"path" : "Cesium3DTilesSelection/test/SimplePrepareRendererResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"path" : "Cesium3DTilesSelection/test/SimpleTaskProcessor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"path" : "Cesium3DTilesSelection/test/readFile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"path" : "CesiumAsync/test/MockAssetRequest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"path" : "CesiumAsync/test/MockAssetResponse.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "CesiumNativeTests/src/test-main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesReader/include/Cesium3DTilesReader/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesReader/include/Cesium3DTilesReader/SchemaReader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesReader/include/Cesium3DTilesReader/SubtreeReader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesReader/include/Cesium3DTilesReader/TilesetReader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Asset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Availability.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/BoundingVolume.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Buffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/BufferView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Class.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/ClassProperty.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/ClassStatistics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Content.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/EnumValue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Extension3dTilesBoundingVolumeS2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/GroupMetadata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/ImplicitTiling.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/MetadataEntity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Properties.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/PropertyStatistics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/PropertyTable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/PropertyTableProperty.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Schema.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Statistics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Subtree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Subtrees.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Tile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/generated/include/Cesium3DTiles/Tileset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTiles/include/Cesium3DTiles/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/AttributeCompression.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/DoublyLinkedList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/ExtensibleObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/IntrusivePointer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/JsonHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/JsonValue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/Math.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/ReferenceCountedNonThreadSafe.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/ScopeGuard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/SpanHelper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/Tracing.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/Uri.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumUtility/include/CesiumUtility/joinToString.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/ArrayJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/BoolJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/DictionaryJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/DoubleJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/ExtensibleObjectJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/ExtensionReaderContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/ExtensionsJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/IExtensionJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/IJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/IgnoreValueJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/IntegerJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/JsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/JsonObjectJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/JsonReader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/ObjectJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonReader/include/CesiumJsonReader/StringJsonHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesWriter/include/Cesium3DTilesWriter/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesWriter/include/Cesium3DTilesWriter/SchemaWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesWriter/include/Cesium3DTilesWriter/SubtreeWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesWriter/include/Cesium3DTilesWriter/TilesetWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonWriter/include/CesiumJsonWriter/ExtensionWriterContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonWriter/include/CesiumJsonWriter/JsonObjectWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonWriter/include/CesiumJsonWriter/JsonWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonWriter/include/CesiumJsonWriter/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonWriter/include/CesiumJsonWriter/PrettyJsonWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumJsonWriter/include/CesiumJsonWriter/writeJsonExtensions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/BingMapsRasterOverlay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/BoundingVolume.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/CreditSystem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/DebugColorizeTilesRasterOverlay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/ErrorList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/GltfConverterResult.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/GltfConverters.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/GltfUtilities.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/IPrepareRendererResources.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/ITileExcluder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/IonRasterOverlay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/QuadtreeRasterOverlayTileProvider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterMappedTo3DTile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterOverlay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterOverlayCollection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterOverlayDetails.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterOverlayLoadFailureDetails.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterOverlayTile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterOverlayTileProvider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterizedPolygonsOverlay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/RasterizedPolygonsTileExcluder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/Tile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileContent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileID.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileLoadResult.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileMapServiceRasterOverlay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileOcclusionRendererProxy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileRefine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/TileSelectionState.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/Tileset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/TilesetContentLoader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/TilesetExternals.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/TilesetLoadFailureDetails.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/TilesetOptions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/ViewState.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/ViewUpdateResult.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/WebMapServiceRasterOverlay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/registerAllTileContentTypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/spdlog-cesium.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Cesium3DTilesSelection/include/Cesium3DTilesSelection/tinyxml-cesium.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/AsyncSystem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/CacheItem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/CachingAssetAccessor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/Future.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/HttpHeaders.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/IAssetAccessor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/IAssetRequest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/IAssetResponse.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/ICacheDatabase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/ITaskProcessor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/Promise.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/SharedFuture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/SqliteCache.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumAsync/include/CesiumAsync/ThreadPool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/BoundingRegion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/BoundingRegionBuilder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/BoundingRegionWithLooseFittingHeights.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/Cartographic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/CartographicPolygon.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/Ellipsoid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/EllipsoidTangentPlane.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/GeographicProjection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/GlobeAnchor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/GlobeRectangle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/GlobeTransforms.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/LocalHorizontalCoordinateSystem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/Projection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/S2CellBoundingVolume.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/S2CellID.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeospatial/include/CesiumGeospatial/WebMercatorProjection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/Availability.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/Axis.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/AxisAlignedBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/BoundingSphere.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/CullingResult.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/CullingVolume.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/IntersectionTests.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/OctreeAvailability.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/OctreeTileID.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/OctreeTilingScheme.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/OrientedBoundingBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/Plane.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/QuadtreeAvailability.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/QuadtreeRectangleAvailability.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/QuadtreeTileID.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/QuadtreeTileRectangularRange.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/QuadtreeTilingScheme.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/Ray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/Rectangle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/TileAvailabilityFlags.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/Transforms.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGeometry/include/CesiumGeometry/clipTriangleAtAxisAlignedThreshold.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/AccessorSparse.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/AccessorSparseIndices.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/AccessorSparseValues.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/AccessorSpec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Animation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/AnimationChannel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/AnimationChannelTarget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/AnimationSampler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Asset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/BufferSpec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/BufferView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Camera.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/CameraOrthographic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/CameraPerspective.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Class.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ClassProperty.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ClassStatistics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Enum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/EnumValue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionBufferExtMeshoptCompression.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionBufferViewExtMeshoptCompression.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionCesiumRTC.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionCesiumTileEdges.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtInstanceFeatures.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtInstanceFeaturesFeatureId.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtMeshFeatures.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtMeshFeaturesFeatureId.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtMeshFeaturesFeatureIdTexture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtMeshGpuInstancing.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataClass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataClassProperty.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataEnum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataEnumValue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataPropertyAttribute.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataPropertyAttributeProperty.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataPropertyTable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataPropertyTableProperty.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataPropertyTexture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataPropertyTextureProperty.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionExtStructuralMetadataSchema.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionKhrDracoMeshCompression.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionKhrMaterialsUnlit.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionKhrTextureBasisu.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionKhrTextureTransform.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionMeshPrimitiveExtFeatureMetadata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionMeshPrimitiveExtStructuralMetadata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionMeshPrimitiveKhrMaterialsVariants.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionMeshPrimitiveKhrMaterialsVariantsMappingsValue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionModelExtFeatureMetadata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionModelExtStructuralMetadata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionModelKhrMaterialsVariants.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionModelKhrMaterialsVariantsValue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionModelMaxarMeshVariants.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionModelMaxarMeshVariantsValue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionNodeMaxarMeshVariants.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionNodeMaxarMeshVariantsMappingsValue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ExtensionTextureWebp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/FeatureIDAttribute.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/FeatureIDTexture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/FeatureIDs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/FeatureTable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/FeatureTableProperty.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/FeatureTexture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ImageSpec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Material.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/MaterialNormalTextureInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/MaterialOcclusionTextureInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/MaterialPBRMetallicRoughness.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Mesh.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/MeshPrimitive.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/ModelSpec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Node.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/PropertyStatistics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Sampler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Scene.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Schema.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Skin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Statistics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/Texture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/TextureAccessor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/generated/include/CesiumGltf/TextureInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/Accessor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/AccessorView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/AccessorWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/Buffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/BufferCesium.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/FeatureIDTextureView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/FeatureTexturePropertyView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/FeatureTextureView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/Image.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/ImageCesium.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/Ktx2TranscodeTargets.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/MetadataArrayView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/MetadataFeatureTableView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/MetadataPropertyView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/Model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/NamedObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/PropertyType.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltf/include/CesiumGltf/PropertyTypeTraits.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltfReader/include/CesiumGltfReader/GltfReader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltfReader/include/CesiumGltfReader/ImageManipulation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltfReader/include/CesiumGltfReader/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltfWriter/include/CesiumGltfWriter/GltfWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumGltfWriter/include/CesiumGltfWriter/Library.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumIonClient/include/CesiumIonClient/Assets.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumIonClient/include/CesiumIonClient/Connection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumIonClient/include/CesiumIonClient/Profile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumIonClient/include/CesiumIonClient/Response.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumIonClient/include/CesiumIonClient/Token.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "CesiumIonClient/include/CesiumIonClient/TokenList.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

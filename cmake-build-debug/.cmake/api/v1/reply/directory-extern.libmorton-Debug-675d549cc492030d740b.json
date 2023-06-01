@@ -1,0 +1,107 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/libmorton/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/libmorton",
+			"paths" : 
+			[
+				"extern/libmorton/include/libmorton/morton_common.h",
+				"extern/libmorton/include/libmorton/morton_AVX512BITALG.h",
+				"extern/libmorton/include/libmorton/morton_BMI.h",
+				"extern/libmorton/include/libmorton/morton2D_LUTs.h",
+				"extern/libmorton/include/libmorton/morton2D.h",
+				"extern/libmorton/include/libmorton/morton3D_LUTs.h",
+				"extern/libmorton/include/libmorton/morton3D.h",
+				"extern/libmorton/include/libmorton/morton.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/libmorton",
+			"exportName" : "libmortonTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "libmorton::@a9801f979a96e08b000e",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"extern/libmorton/CMakeFiles/Export/c76d0739533321110686f396c82f36e9/libmortonTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/libmorton",
+			"paths" : 
+			[
+				"cmake-build-debug/extern/libmorton/libmortonConfigVersion.cmake",
+				"cmake-build-debug/extern/libmorton/libmortonConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/extern/libmorton/libmorton.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/libmorton",
+		"source" : "extern/libmorton"
+	}
+}

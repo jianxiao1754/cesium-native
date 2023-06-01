@@ -1,0 +1,3 @@
+D:\devkits\JetBrains\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\draco_encoder.dir/objects.a
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\draco_encoder.dir/objects.a @CMakeFiles\draco_encoder.dir\objects1.rsp
+D:\devkits\JetBrains\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\draco_encoder.dir/objects.a -Wl,--no-whole-archive -o draco_encoder.exe -Wl,--out-implib,libdraco_encoder.dll.a -Wl,--major-image-version,1,--minor-image-version,5 @CMakeFiles\draco_encoder.dir\linklibs.rsp

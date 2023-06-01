@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libsqlite3d.a CMakeFiles/sqlite3.dir/sqlite3/sqlite3.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libsqlite3d.a

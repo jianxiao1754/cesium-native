@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libmodp_b64d.a CMakeFiles/modp_b64.dir/modp_b64.cc.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libmodp_b64d.a

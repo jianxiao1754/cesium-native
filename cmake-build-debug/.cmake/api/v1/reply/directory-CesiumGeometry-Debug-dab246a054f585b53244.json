@@ -1,0 +1,77 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CesiumGeometry/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"CesiumGeometry/libCesiumGeometryd.a"
+			],
+			"targetId" : "CesiumGeometry::@f35d40b38ac61c57330a",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CesiumGeometry",
+			"paths" : 
+			[
+				"CesiumGeometry/include/CesiumGeometry/Availability.h",
+				"CesiumGeometry/include/CesiumGeometry/Axis.h",
+				"CesiumGeometry/include/CesiumGeometry/AxisAlignedBox.h",
+				"CesiumGeometry/include/CesiumGeometry/BoundingSphere.h",
+				"CesiumGeometry/include/CesiumGeometry/CullingResult.h",
+				"CesiumGeometry/include/CesiumGeometry/CullingVolume.h",
+				"CesiumGeometry/include/CesiumGeometry/IntersectionTests.h",
+				"CesiumGeometry/include/CesiumGeometry/Library.h",
+				"CesiumGeometry/include/CesiumGeometry/OctreeAvailability.h",
+				"CesiumGeometry/include/CesiumGeometry/OctreeTileID.h",
+				"CesiumGeometry/include/CesiumGeometry/OctreeTilingScheme.h",
+				"CesiumGeometry/include/CesiumGeometry/OrientedBoundingBox.h",
+				"CesiumGeometry/include/CesiumGeometry/Plane.h",
+				"CesiumGeometry/include/CesiumGeometry/QuadtreeAvailability.h",
+				"CesiumGeometry/include/CesiumGeometry/QuadtreeRectangleAvailability.h",
+				"CesiumGeometry/include/CesiumGeometry/QuadtreeTileID.h",
+				"CesiumGeometry/include/CesiumGeometry/QuadtreeTileRectangularRange.h",
+				"CesiumGeometry/include/CesiumGeometry/QuadtreeTilingScheme.h",
+				"CesiumGeometry/include/CesiumGeometry/Ray.h",
+				"CesiumGeometry/include/CesiumGeometry/Rectangle.h",
+				"CesiumGeometry/include/CesiumGeometry/TileAvailabilityFlags.h",
+				"CesiumGeometry/include/CesiumGeometry/Transforms.h",
+				"CesiumGeometry/include/CesiumGeometry/clipTriangleAtAxisAlignedThreshold.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CesiumGeometry",
+		"source" : "CesiumGeometry"
+	}
+}

@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libcsprngd.a CMakeFiles/csprng.dir/CSPRNG/source/csprng.cpp.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libcsprngd.a

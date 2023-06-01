@@ -1,0 +1,58 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Cesium3DTilesReader/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Cesium3DTilesReader/libCesium3DTilesReaderd.a"
+			],
+			"targetId" : "Cesium3DTilesReader::@031f4c2c5a677a1bb983",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/Cesium3DTilesReader",
+			"paths" : 
+			[
+				"Cesium3DTilesReader/include/Cesium3DTilesReader/Library.h",
+				"Cesium3DTilesReader/include/Cesium3DTilesReader/SchemaReader.h",
+				"Cesium3DTilesReader/include/Cesium3DTilesReader/SubtreeReader.h",
+				"Cesium3DTilesReader/include/Cesium3DTilesReader/TilesetReader.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Cesium3DTilesReader",
+		"source" : "Cesium3DTilesReader"
+	}
+}

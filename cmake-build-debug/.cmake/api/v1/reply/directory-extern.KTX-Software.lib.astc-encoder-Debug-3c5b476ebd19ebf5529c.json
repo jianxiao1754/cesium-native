@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "extern/KTX-Software/lib/astc-encoder",
+		"source" : "extern/KTX-Software/lib/astc-encoder"
+	}
+}

@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libobj_basisu_cbindd.a CMakeFiles/obj_basisu_cbind.dir/src/basisu_c_binding.cpp.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libobj_basisu_cbindd.a

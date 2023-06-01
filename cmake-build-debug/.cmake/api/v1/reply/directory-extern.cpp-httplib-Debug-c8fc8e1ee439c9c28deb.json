@@ -1,0 +1,85 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/cpp-httplib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 276,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 278,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 288,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"extern/cpp-httplib/httplib.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "C:/Program Files (x86)/cesium-native/cmake/httplib",
+			"paths" : 
+			[
+				"cmake-build-debug/extern/cpp-httplib/httplibConfig.cmake",
+				"cmake-build-debug/extern/cpp-httplib/httplibConfigVersion.cmake",
+				"extern/cpp-httplib/cmake/FindBrotli.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "C:/Program Files (x86)/cesium-native/cmake/httplib",
+			"exportName" : "httplibTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "httplib::@4e7c543b5b442194d506",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"extern/cpp-httplib/CMakeFiles/Export/4bc6ce7ea759ecfddda12b6f91fcf96d/httplibTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/cpp-httplib",
+		"source" : "extern/cpp-httplib"
+	}
+}

@@ -1,0 +1,113 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"extern/KTX-Software/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 726,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 743,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 756,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "dev",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/KTX-Software/libktxd.a"
+			],
+			"targetId" : "ktx::@1f45bfcee8b52cae0b90",
+			"targetIndex" : 77,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "dev",
+			"destination" : "include",
+			"paths" : 
+			[
+				"include/ktx.h",
+				"include/ktxvulkan.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "dev",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/KTX-Software/lib/astc-encoder/Source/libastcenc-avx2-staticd.a"
+			],
+			"targetId" : "astcenc-avx2-static::@82b55ab5f2ea17b19b9c",
+			"targetIndex" : 43,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "library",
+			"destination" : "lib/cmake/ktx",
+			"exportName" : "KTXTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ktx::@1f45bfcee8b52cae0b90",
+					"index" : 77
+				},
+				{
+					"id" : "astcenc-avx2-static::@82b55ab5f2ea17b19b9c",
+					"index" : 43
+				}
+			],
+			"paths" : 
+			[
+				"extern/KTX-Software/CMakeFiles/Export/eb899b7ebdca6f1dd2b833b33a58189b/KtxTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "library",
+			"destination" : "lib/cmake/ktx",
+			"paths" : 
+			[
+				"extern/KTX-Software/cmake/KtxConfig.cmake",
+				"cmake-build-debug/extern/KTX-Software/KtxConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/KTX-Software",
+		"source" : "extern/KTX-Software"
+	}
+}

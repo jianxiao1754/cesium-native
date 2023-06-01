@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libwebpdemuxd.a CMakeFiles/webpdemux.dir/src/demux/anim_decode.c.obj CMakeFiles/webpdemux.dir/src/demux/demux.c.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libwebpdemuxd.a

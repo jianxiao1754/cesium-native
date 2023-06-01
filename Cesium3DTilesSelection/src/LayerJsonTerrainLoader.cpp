@@ -12,6 +12,9 @@
 #include <libmorton/morton.h>
 #include <rapidjson/document.h>
 
+#include <filesystem>
+#include <fstream>
+
 using namespace CesiumAsync;
 using namespace Cesium3DTilesSelection;
 using namespace CesiumGeometry;
@@ -677,6 +680,22 @@ Future<QuantizedMeshLoadResult> requestTileContent(
                   pRequest->url()));
               result.pRequest = std::move(pRequest);
               return result;
+            }
+
+//            pLogger->warn("level:{},x:{},y:{}",tileID.level,tileID.x,tileID.y);
+            auto const tileData=reinterpret_cast<const char*>(pResponse->data().data());
+
+            std::filesystem::path tilePath{"E:/Map/CesiumTerrain"};
+            tilePath/=std::to_string(tileID.level);
+            tilePath/=std::to_string(tileID.x);
+            if(!std::filesystem::exists(tilePath)){
+              std::filesystem::create_directories(tilePath);
+            }
+            tilePath/=std::to_string(tileID.y)+".terrain";
+
+            if(!std::filesystem::exists(tilePath)){
+              std::ofstream tileFile{tilePath,std::ios::binary|std::ios::trunc};
+              tileFile.write(tileData,int(pResponse->data().size()));
             }
 
             return QuantizedMeshLoader::load(

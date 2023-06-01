@@ -131,6 +131,12 @@ public:
           CesiumUtility::Uri::addQuery(this->_urlTemplate, "n", "z");
     }
 
+    if(this->_urlTemplate.find("mkt=en-US")!=std::string::npos){
+      this->_urlTemplate.replace(this->_urlTemplate.find("mkt=en-US"),std::strlen("mkt=en-US"),"mkt=zh-Hans");
+    }
+
+//    getLogger()->warn("{}",this->_urlTemplate);
+
     std::string resolvedUrl =
         CesiumUtility::Uri::resolve(baseUrl, this->_urlTemplate);
 
@@ -168,7 +174,13 @@ protected:
           return key;
         });
 
+//    getLogger()->warn("BingMapsRasterOverlay: {},level:{},x:{},y:{}",url,tileID.level,tileID.x,tileID.y);
+
     LoadTileImageFromUrlOptions options;
+    options.hasTileID=true;
+    options.level=tileID.level;
+    options.x=tileID.x;
+    options.y=tileID.y;
     options.allowEmptyImages = true;
     options.moreDetailAvailable = tileID.level < this->getMaximumLevel();
     options.rectangle = this->getTilingScheme().tileToRectangle(tileID);

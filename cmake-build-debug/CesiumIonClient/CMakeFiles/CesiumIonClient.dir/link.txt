@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libCesiumIonClientd.a CMakeFiles/CesiumIonClient.dir/src/Connection.cpp.obj CMakeFiles/CesiumIonClient.dir/src/Response.cpp.obj CMakeFiles/CesiumIonClient.dir/src/parseLinkHeader.cpp.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libCesiumIonClientd.a

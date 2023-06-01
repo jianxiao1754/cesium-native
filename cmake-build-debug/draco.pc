@@ -1,0 +1,6 @@
+Name: draco
+Description: Draco geometry de(com)pression library.
+Version: 1.5.2
+Cflags: -IC:/Program Files (x86)/cesium-native/include
+Libs: -LC:/Program Files (x86)/cesium-native/lib -ldraco
+Libs.private: 

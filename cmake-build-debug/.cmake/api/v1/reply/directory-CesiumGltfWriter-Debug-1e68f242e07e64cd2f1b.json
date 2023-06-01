@@ -1,0 +1,56 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CesiumGltfWriter/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"CesiumGltfWriter/libCesiumGltfWriterd.a"
+			],
+			"targetId" : "CesiumGltfWriter::@643b982e43988849ba7c",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CesiumGltfWriter",
+			"paths" : 
+			[
+				"CesiumGltfWriter/include/CesiumGltfWriter/GltfWriter.h",
+				"CesiumGltfWriter/include/CesiumGltfWriter/Library.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CesiumGltfWriter",
+		"source" : "CesiumGltfWriter"
+	}
+}

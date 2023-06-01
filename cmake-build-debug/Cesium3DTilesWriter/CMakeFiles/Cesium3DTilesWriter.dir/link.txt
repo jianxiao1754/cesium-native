@@ -1,0 +1,2 @@
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ar.exe qc libCesium3DTilesWriterd.a CMakeFiles/Cesium3DTilesWriter.dir/generated/src/TilesetJsonWriter.cpp.obj CMakeFiles/Cesium3DTilesWriter.dir/generated/src/registerExtensions.cpp.obj CMakeFiles/Cesium3DTilesWriter.dir/src/SchemaWriter.cpp.obj CMakeFiles/Cesium3DTilesWriter.dir/src/SubtreeWriter.cpp.obj CMakeFiles/Cesium3DTilesWriter.dir/src/TilesetWriter.cpp.obj
+D:\devkits\JetBrains\CLion\bin\mingw\bin\ranlib.exe libCesium3DTilesWriterd.a
